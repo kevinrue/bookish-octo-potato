@@ -341,5 +341,12 @@
     "title": "All Studies Gene List Overlap",
     "section": "Heatmap View",
     "text": "Heatmap View"
+  },
+  {
+    "objectID": "cross-studies/index.html",
+    "href": "cross-studies/index.html",
+    "title": "Cross-studies comparisons",
+    "section": "",
+    "text": "All studies"
   }
 ]
