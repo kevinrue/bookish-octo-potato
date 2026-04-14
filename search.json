@@ -4,203 +4,87 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "This website was built using Quarto."
+    "text": "This website was built using Quarto.",
+    "crumbs": [
+      "About"
+    ]
   },
   {
-    "objectID": "ferrdb-crosscheck/yang-2024.html",
-    "href": "ferrdb-crosscheck/yang-2024.html",
-    "title": "Yang 2024 – FerrDB Role Counts",
+    "objectID": "ferrdb-crosscheck/zhang-2022.html",
+    "href": "ferrdb-crosscheck/zhang-2022.html",
+    "title": "Zhang 2022 – FerrDB Role Counts",
     "section": "",
-    "text": "Generated: 2026-04-14 14:07:26"
+    "text": "Generated: 2026-04-14 14:40:27"
   },
   {
-    "objectID": "ferrdb-crosscheck/yang-2024.html#setup",
-    "href": "ferrdb-crosscheck/yang-2024.html#setup",
-    "title": "Yang 2024 – FerrDB Role Counts",
+    "objectID": "ferrdb-crosscheck/zhang-2022.html#setup",
+    "href": "ferrdb-crosscheck/zhang-2022.html#setup",
+    "title": "Zhang 2022 – FerrDB Role Counts",
     "section": "Setup",
     "text": "Setup\nPackages: yaml, dplyr, tidyr, knitr."
   },
   {
-    "objectID": "ferrdb-crosscheck/yang-2024.html#load-data",
-    "href": "ferrdb-crosscheck/yang-2024.html#load-data",
-    "title": "Yang 2024 – FerrDB Role Counts",
+    "objectID": "ferrdb-crosscheck/zhang-2022.html#load-data",
+    "href": "ferrdb-crosscheck/zhang-2022.html#load-data",
+    "title": "Zhang 2022 – FerrDB Role Counts",
     "section": "Load data",
-    "text": "Load data\nGene lists loaded from yang-2024.yaml; FerrDB reference loaded from ferrdb_genes.tsv."
+    "text": "Load data\nGene lists loaded from zhang-2022.yaml; FerrDB reference loaded from ferrdb_genes.tsv."
   },
   {
-    "objectID": "ferrdb-crosscheck/yang-2024.html#count-ferrdb-roles-per-gene-list",
-    "href": "ferrdb-crosscheck/yang-2024.html#count-ferrdb-roles-per-gene-list",
-    "title": "Yang 2024 – FerrDB Role Counts",
+    "objectID": "ferrdb-crosscheck/zhang-2022.html#count-ferrdb-roles-per-gene-list",
+    "href": "ferrdb-crosscheck/zhang-2022.html#count-ferrdb-roles-per-gene-list",
+    "title": "Zhang 2022 – FerrDB Role Counts",
     "section": "Count FerrDB roles per gene list",
     "text": "Count FerrDB roles per gene list\nFor each gene list, intersect with FerrDB and count the number of genes assigned each role.\nRole counts computed for each gene list."
   },
   {
-    "objectID": "ferrdb-crosscheck/yang-2024.html#reshape-to-matrix",
-    "href": "ferrdb-crosscheck/yang-2024.html#reshape-to-matrix",
-    "title": "Yang 2024 – FerrDB Role Counts",
+    "objectID": "ferrdb-crosscheck/zhang-2022.html#reshape-to-matrix",
+    "href": "ferrdb-crosscheck/zhang-2022.html#reshape-to-matrix",
+    "title": "Zhang 2022 – FerrDB Role Counts",
     "section": "Reshape to matrix",
-    "text": "Reshape to matrix\nFor each gene list, the table shows how many genes overlap with each FerrDB role category (Driver, Suppressor, Marker, Unclassified), and how many are absent from FerrDB entirely.\n\n\n\n\n\n\n\n\n\n\n\n\n\nGene list\nDriver\nSuppressor\nMarker\nUnclassified\nNot in FerrDB\n\n\n\n\nyang_2024_cys_starv_0_high_score\n1\n1\n0\n0\n11\n\n\nyang_2024_cys_starv_0_low_score\n1\n2\n0\n0\n45"
+    "text": "Reshape to matrix\nFor each gene list, the table shows how many genes overlap with each FerrDB role category (Driver, Suppressor, Marker, Unclassified), and how many are absent from FerrDB entirely.\n\n\n\n\n\n\n\n\n\n\n\n\n\nGene list\nDriver\nSuppressor\nMarker\nUnclassified\nNot in FerrDB\n\n\n\n\nzhang_2022_crispr_high_score\n9\n2\n4\n3\n70\n\n\nzhang_2022_crispr_low_score\n9\n17\n2\n5\n111"
   },
   {
-    "objectID": "ferrdb-crosscheck/index.html",
-    "href": "ferrdb-crosscheck/index.html",
-    "title": "Validation against FerrDB",
+    "objectID": "ferrdb-crosscheck/timson-2024.html",
+    "href": "ferrdb-crosscheck/timson-2024.html",
+    "title": "Timson 2024 – FerrDB Role Counts",
     "section": "",
-    "text": "Timson 2024\nYang 2024\nZhang 2022"
+    "text": "Generated: 2026-04-14 14:40:20"
   },
   {
-    "objectID": "data-extraction/yang-2024.html",
-    "href": "data-extraction/yang-2024.html",
-    "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
-    "section": "",
-    "text": "Generated: 2026-04-14 14:07:13"
-  },
-  {
-    "objectID": "data-extraction/yang-2024.html#setup",
-    "href": "data-extraction/yang-2024.html#setup",
-    "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
+    "objectID": "ferrdb-crosscheck/timson-2024.html#setup",
+    "href": "ferrdb-crosscheck/timson-2024.html#setup",
+    "title": "Timson 2024 – FerrDB Role Counts",
     "section": "Setup",
-    "text": "Setup\nPackages: readxl, dplyr, ggplot2, ggrepel, yaml."
+    "text": "Setup\nPackages: yaml, dplyr, tidyr, knitr."
   },
   {
-    "objectID": "data-extraction/yang-2024.html#import-data",
-    "href": "data-extraction/yang-2024.html#import-data",
-    "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
-    "section": "Import data",
-    "text": "Import data\nSheets imported: Cys Starv_Cys 0µM and Cys Starv_Cys 1µM."
-  },
-  {
-    "objectID": "data-extraction/yang-2024.html#filter-to-genes-only",
-    "href": "data-extraction/yang-2024.html#filter-to-genes-only",
-    "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
-    "section": "Filter to genes only",
-    "text": "Filter to genes only\nNo row filtering applied.\n\n\nRows (0 µM): 18423 \n\n\nRows (1 µM): 18449"
-  },
-  {
-    "objectID": "data-extraction/yang-2024.html#plots",
-    "href": "data-extraction/yang-2024.html#plots",
-    "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
-    "section": "Plots",
-    "text": "Plots\n\nBeta score scatter: 0 µM vs 1 µM\nSanity check: replicates the authors’ scatter plot of MAGeCK beta scores across the two cysteine conditions, confirming that the data was imported and processed correctly.\n\n\n\n\n\n\n\nVolcano plot\nCustom plot to inform the selection of thresholds for candidate gene extraction. This plot shows the 0 µM cysteine condition only, which is the sole condition represented in our internal list of CRISPR screens. Highlighted genes (red) are the same as those labelled in the beta score scatter above, as selected by the original authors. The dashed line marks p-value = 0.001, the threshold applied below. Dots stacked along the top edge of the plot represent genes with a p-value of exactly 0, i.e. –log10(0) = ∞."
-  },
-  {
-    "objectID": "data-extraction/yang-2024.html#extract-gene-lists",
-    "href": "data-extraction/yang-2024.html#extract-gene-lists",
-    "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
-    "section": "Extract gene lists",
-    "text": "Extract gene lists\n\n\n$yang_2024_cys_starv_0_high_score\n[1] 12\n\n$yang_2024_cys_starv_0_low_score\n[1] 48"
-  },
-  {
-    "objectID": "data-extraction/yang-2024.html#save-output",
-    "href": "data-extraction/yang-2024.html#save-output",
-    "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
-    "section": "Save output",
-    "text": "Save output\nWrite the gene lists to gene_lists.yaml, each with accompanying metadata.\n\n\nWrote 2 gene lists to data/yang-2024.yaml"
-  },
-  {
-    "objectID": "data-extraction/index.html",
-    "href": "data-extraction/index.html",
-    "title": "Papers",
-    "section": "",
-    "text": "Timson 2024\nYang 2024\nZhang 2022"
-  },
-  {
-    "objectID": "databases/ferrdb-v3.html",
-    "href": "databases/ferrdb-v3.html",
-    "title": "FerrDb – Known Ferroptosis Modulators extraction",
-    "section": "",
-    "text": "Generated: 2026-04-14 14:07:02"
-  },
-  {
-    "objectID": "databases/ferrdb-v3.html#setup",
-    "href": "databases/ferrdb-v3.html#setup",
-    "title": "FerrDb – Known Ferroptosis Modulators extraction",
-    "section": "Setup",
-    "text": "Setup\nPackages: readr, dplyr, ggplot2."
-  },
-  {
-    "objectID": "databases/ferrdb-v3.html#load-data",
-    "href": "databases/ferrdb-v3.html#load-data",
-    "title": "FerrDb – Known Ferroptosis Modulators extraction",
+    "objectID": "ferrdb-crosscheck/timson-2024.html#load-data",
+    "href": "ferrdb-crosscheck/timson-2024.html#load-data",
+    "title": "Timson 2024 – FerrDB Role Counts",
     "section": "Load data",
-    "text": "Load data\nExclude ferrdb_disease.csv (no gene information) and ferrdb_inducer.csv and ferrdb_inhibitor.csv (document substances, not genes). Filter each file to ferroptosis entries only via the RCD column.\n\n\nRegistered S3 method overwritten by 'bit64':\n  method          from \n  print.bitstring tools"
+    "text": "Load data\nGene lists loaded from gene_lists.yaml; FerrDB reference loaded from ferrdb_genes.tsv."
   },
   {
-    "objectID": "databases/ferrdb-v3.html#bar-plot",
-    "href": "databases/ferrdb-v3.html#bar-plot",
-    "title": "FerrDb – Known Ferroptosis Modulators extraction",
-    "section": "Bar plot",
-    "text": "Bar plot\nEach bar shows the number of distinct genes annotated with that role in FerrDB for ferroptosis. The count label is printed above each bar for easy reference."
+    "objectID": "ferrdb-crosscheck/timson-2024.html#count-ferrdb-roles-per-gene-list",
+    "href": "ferrdb-crosscheck/timson-2024.html#count-ferrdb-roles-per-gene-list",
+    "title": "Timson 2024 – FerrDB Role Counts",
+    "section": "Count FerrDB roles per gene list",
+    "text": "Count FerrDB roles per gene list\nFor each gene list, intersect with FerrDB and count the number of genes assigned each role.\nRole counts computed for each gene list."
   },
   {
-    "objectID": "databases/ferrdb-v3.html#export",
-    "href": "databases/ferrdb-v3.html#export",
-    "title": "FerrDb – Known Ferroptosis Modulators extraction",
-    "section": "Export",
-    "text": "Export\n\n\nWrote 1957 rows to data/ferrdb_genes.tsv"
-  },
-  {
-    "objectID": "data-extraction/timson-2024.html",
-    "href": "data-extraction/timson-2024.html",
-    "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
-    "section": "",
-    "text": "Generated: 2026-04-14 14:07:08"
-  },
-  {
-    "objectID": "data-extraction/timson-2024.html#setup",
-    "href": "data-extraction/timson-2024.html#setup",
-    "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
-    "section": "Setup",
-    "text": "Setup\nPackages: readxl, dplyr, ggplot2, ggrepel, yaml."
-  },
-  {
-    "objectID": "data-extraction/timson-2024.html#import-data",
-    "href": "data-extraction/timson-2024.html#import-data",
-    "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
-    "section": "Import data",
-    "text": "Import data\nSheet imported: Table S1 Gene Scores."
-  },
-  {
-    "objectID": "data-extraction/timson-2024.html#filter-to-genes-only",
-    "href": "data-extraction/timson-2024.html#filter-to-genes-only",
-    "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
-    "section": "Filter to genes only",
-    "text": "Filter to genes only\nRemove rows whose Names entry starts with sg (guide RNA controls) or starts with INTERGENIC (non-gene features).\n\n\nRows before filtering: 23940 \n\n\nRows after filtering:  2997"
-  },
-  {
-    "objectID": "data-extraction/timson-2024.html#rank-genes",
-    "href": "data-extraction/timson-2024.html#rank-genes",
-    "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
-    "section": "Rank genes",
-    "text": "Rank genes\nGenes ranked by ascending score in each condition."
-  },
-  {
-    "objectID": "data-extraction/timson-2024.html#plots",
-    "href": "data-extraction/timson-2024.html#plots",
-    "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
-    "section": "Plots",
-    "text": "Plots\n\nCyto score ranked plot\nGenes ranked by ascending cytoplasmic gshF score under BSO treatment. GCLM is highlighted as a positive control — it encodes the modifier subunit of glutamate-cysteine ligase, a key enzyme in glutathione biosynthesis. The dashed lines mark the ±1.5 threshold used to extract the high- and low-score gene lists below.\n\n\n\n\n\n\n\nMito score ranked plot\nSame as above for the mitochondrial gshF condition. GCLM is again highlighted as a reference point.\n\n\n\n\n\n\n\nCyto rank vs mito rank (log-log)\nCross-condition comparison of gene ranks on log scales. Genes in the lower-left corner score poorly (low rank) in both conditions, suggesting relevance to glutathione homeostasis regardless of compartment. Highlighted genes are known those labelled by the original authors in their figure, used here as reference points to confirm the data was imported and processed correctly."
-  },
-  {
-    "objectID": "data-extraction/timson-2024.html#extract-gene-lists",
-    "href": "data-extraction/timson-2024.html#extract-gene-lists",
-    "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
-    "section": "Extract gene lists",
-    "text": "Extract gene lists\n\n\n$timson_2024_cyto_high_score\n[1] 1\n\n$timson_2024_cyto_low_score\n[1] 161\n\n$timson_2024_mito_high_score\n[1] 1\n\n$timson_2024_mito_low_score\n[1] 225"
-  },
-  {
-    "objectID": "data-extraction/timson-2024.html#save-output",
-    "href": "data-extraction/timson-2024.html#save-output",
-    "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
-    "section": "Save output",
-    "text": "Save output\nWrite the four gene lists to gene_lists.yaml, each with accompanying metadata.\n\n\nWrote 4 gene lists to data/timson-2024.yaml"
+    "objectID": "ferrdb-crosscheck/timson-2024.html#reshape-to-matrix",
+    "href": "ferrdb-crosscheck/timson-2024.html#reshape-to-matrix",
+    "title": "Timson 2024 – FerrDB Role Counts",
+    "section": "Reshape to matrix",
+    "text": "Reshape to matrix\nFor each gene list, the table shows how many genes overlap with each FerrDB role category (Driver, Suppressor, Marker, Unclassified), and how many are absent from FerrDB entirely.\n\n\n\n\n\n\n\n\n\n\n\n\n\nGene list\nDriver\nSuppressor\nMarker\nUnclassified\nNot in FerrDB\n\n\n\n\ntimson_2024_cyto_high_score\n0\n0\n0\n0\n1\n\n\ntimson_2024_cyto_low_score\n17\n31\n7\n5\n119\n\n\ntimson_2024_mito_high_score\n0\n0\n0\n0\n1\n\n\ntimson_2024_mito_low_score\n20\n34\n7\n5\n178"
   },
   {
     "objectID": "data-extraction/zhang-2022.html",
     "href": "data-extraction/zhang-2022.html",
     "title": "Zhang 2022 – CRISPR Screen Gene List Extraction",
     "section": "",
-    "text": "Generated: 2026-04-14 14:07:18"
+    "text": "Generated: 2026-04-14 14:40:12"
   },
   {
     "objectID": "data-extraction/zhang-2022.html#setup",
@@ -245,108 +129,267 @@
     "text": "Save output\nWrite the gene lists to zhang-2022.yaml, each with accompanying metadata.\n\n\nWrote 2 gene lists to data/zhang-2022.yaml"
   },
   {
-    "objectID": "ferrdb-crosscheck/timson-2024.html",
-    "href": "ferrdb-crosscheck/timson-2024.html",
-    "title": "Timson 2024 – FerrDB Role Counts",
+    "objectID": "data-extraction/timson-2024.html",
+    "href": "data-extraction/timson-2024.html",
+    "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
     "section": "",
-    "text": "Generated: 2026-04-14 14:07:22"
+    "text": "Generated: 2026-04-14 14:39:56"
   },
   {
-    "objectID": "ferrdb-crosscheck/timson-2024.html#setup",
-    "href": "ferrdb-crosscheck/timson-2024.html#setup",
-    "title": "Timson 2024 – FerrDB Role Counts",
+    "objectID": "data-extraction/timson-2024.html#setup",
+    "href": "data-extraction/timson-2024.html#setup",
+    "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
+    "section": "Setup",
+    "text": "Setup\nPackages: readxl, dplyr, ggplot2, ggrepel, yaml."
+  },
+  {
+    "objectID": "data-extraction/timson-2024.html#import-data",
+    "href": "data-extraction/timson-2024.html#import-data",
+    "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
+    "section": "Import data",
+    "text": "Import data\nSheet imported: Table S1 Gene Scores."
+  },
+  {
+    "objectID": "data-extraction/timson-2024.html#filter-to-genes-only",
+    "href": "data-extraction/timson-2024.html#filter-to-genes-only",
+    "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
+    "section": "Filter to genes only",
+    "text": "Filter to genes only\nRemove rows whose Names entry starts with sg (guide RNA controls) or starts with INTERGENIC (non-gene features).\n\n\nRows before filtering: 23940 \n\n\nRows after filtering:  2997"
+  },
+  {
+    "objectID": "data-extraction/timson-2024.html#rank-genes",
+    "href": "data-extraction/timson-2024.html#rank-genes",
+    "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
+    "section": "Rank genes",
+    "text": "Rank genes\nGenes ranked by ascending score in each condition."
+  },
+  {
+    "objectID": "data-extraction/timson-2024.html#plots",
+    "href": "data-extraction/timson-2024.html#plots",
+    "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
+    "section": "Plots",
+    "text": "Plots\n\nCyto score ranked plot\nGenes ranked by ascending cytoplasmic gshF score under BSO treatment. GCLM is highlighted as a positive control — it encodes the modifier subunit of glutamate-cysteine ligase, a key enzyme in glutathione biosynthesis. The dashed lines mark the ±1.5 threshold used to extract the high- and low-score gene lists below.\n\n\n\n\n\n\n\n\n\n\n\nMito score ranked plot\nSame as above for the mitochondrial gshF condition. GCLM is again highlighted as a reference point.\n\n\n\n\n\n\n\n\n\n\n\nCyto rank vs mito rank (log-log)\nCross-condition comparison of gene ranks on log scales. Genes in the lower-left corner score poorly (low rank) in both conditions, suggesting relevance to glutathione homeostasis regardless of compartment. Highlighted genes are known those labelled by the original authors in their figure, used here as reference points to confirm the data was imported and processed correctly."
+  },
+  {
+    "objectID": "data-extraction/timson-2024.html#extract-gene-lists",
+    "href": "data-extraction/timson-2024.html#extract-gene-lists",
+    "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
+    "section": "Extract gene lists",
+    "text": "Extract gene lists\n\n\n$timson_2024_cyto_high_score\n[1] 1\n\n$timson_2024_cyto_low_score\n[1] 161\n\n$timson_2024_mito_high_score\n[1] 1\n\n$timson_2024_mito_low_score\n[1] 225"
+  },
+  {
+    "objectID": "data-extraction/timson-2024.html#save-output",
+    "href": "data-extraction/timson-2024.html#save-output",
+    "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
+    "section": "Save output",
+    "text": "Save output\nWrite the four gene lists to gene_lists.yaml, each with accompanying metadata.\n\n\nWrote 4 gene lists to data/timson-2024.yaml"
+  },
+  {
+    "objectID": "databases/ferrdb-v3.html",
+    "href": "databases/ferrdb-v3.html",
+    "title": "FerrDb – Known Ferroptosis Modulators extraction",
+    "section": "",
+    "text": "Generated: 2026-04-14 14:39:49"
+  },
+  {
+    "objectID": "databases/ferrdb-v3.html#setup",
+    "href": "databases/ferrdb-v3.html#setup",
+    "title": "FerrDb – Known Ferroptosis Modulators extraction",
+    "section": "Setup",
+    "text": "Setup\nPackages: readr, dplyr, ggplot2."
+  },
+  {
+    "objectID": "databases/ferrdb-v3.html#load-data",
+    "href": "databases/ferrdb-v3.html#load-data",
+    "title": "FerrDb – Known Ferroptosis Modulators extraction",
+    "section": "Load data",
+    "text": "Load data\nExclude ferrdb_disease.csv (no gene information) and ferrdb_inducer.csv and ferrdb_inhibitor.csv (document substances, not genes). Filter each file to ferroptosis entries only via the RCD column."
+  },
+  {
+    "objectID": "databases/ferrdb-v3.html#bar-plot",
+    "href": "databases/ferrdb-v3.html#bar-plot",
+    "title": "FerrDb – Known Ferroptosis Modulators extraction",
+    "section": "Bar plot",
+    "text": "Bar plot\nEach bar shows the number of distinct genes annotated with that role in FerrDB for ferroptosis. The count label is printed above each bar for easy reference."
+  },
+  {
+    "objectID": "databases/ferrdb-v3.html#export",
+    "href": "databases/ferrdb-v3.html#export",
+    "title": "FerrDb – Known Ferroptosis Modulators extraction",
+    "section": "Export",
+    "text": "Export\n\n\nWrote 1957 rows to data/ferrdb_genes.tsv"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ferroptosis Data Extraction",
+    "section": "",
+    "text": "FerrDB v3: Used to extract known ferroptososis modulators and their roles.\n\n\n\n\nPublished CRISPR datasets are used to extract lists of candidate genes for meta-analysis.\n\n\n\nCross-checking extracted gene lists against FerrDB v3 for known ferroptosis modulators."
+  },
+  {
+    "objectID": "index.html#resources",
+    "href": "index.html#resources",
+    "title": "Ferroptosis Data Extraction",
+    "section": "",
+    "text": "FerrDB v3: Used to extract known ferroptososis modulators and their roles.\n\n\n\n\nPublished CRISPR datasets are used to extract lists of candidate genes for meta-analysis.\n\n\n\nCross-checking extracted gene lists against FerrDB v3 for known ferroptosis modulators."
+  },
+  {
+    "objectID": "databases/index.html",
+    "href": "databases/index.html",
+    "title": "Databases",
+    "section": "",
+    "text": "FerrDB v3",
+    "crumbs": [
+      "Databases"
+    ]
+  },
+  {
+    "objectID": "data-extraction/index.html",
+    "href": "data-extraction/index.html",
+    "title": "Papers",
+    "section": "",
+    "text": "Timson 2024\nYang 2024\nZhang 2022",
+    "crumbs": [
+      "Papers"
+    ]
+  },
+  {
+    "objectID": "data-extraction/yang-2024.html",
+    "href": "data-extraction/yang-2024.html",
+    "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
+    "section": "",
+    "text": "Generated: 2026-04-14 14:40:03"
+  },
+  {
+    "objectID": "data-extraction/yang-2024.html#setup",
+    "href": "data-extraction/yang-2024.html#setup",
+    "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
+    "section": "Setup",
+    "text": "Setup\nPackages: readxl, dplyr, ggplot2, ggrepel, yaml."
+  },
+  {
+    "objectID": "data-extraction/yang-2024.html#import-data",
+    "href": "data-extraction/yang-2024.html#import-data",
+    "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
+    "section": "Import data",
+    "text": "Import data\nSheets imported: Cys Starv_Cys 0µM and Cys Starv_Cys 1µM."
+  },
+  {
+    "objectID": "data-extraction/yang-2024.html#filter-to-genes-only",
+    "href": "data-extraction/yang-2024.html#filter-to-genes-only",
+    "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
+    "section": "Filter to genes only",
+    "text": "Filter to genes only\nNo row filtering applied.\n\n\nRows (0 µM): 18423 \n\n\nRows (1 µM): 18449"
+  },
+  {
+    "objectID": "data-extraction/yang-2024.html#plots",
+    "href": "data-extraction/yang-2024.html#plots",
+    "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
+    "section": "Plots",
+    "text": "Plots\n\nBeta score scatter: 0 µM vs 1 µM\nSanity check: replicates the authors’ scatter plot of MAGeCK beta scores across the two cysteine conditions, confirming that the data was imported and processed correctly.\n\n\n\n\n\n\n\n\n\n\n\nVolcano plot\nCustom plot to inform the selection of thresholds for candidate gene extraction. This plot shows the 0 µM cysteine condition only, which is the sole condition represented in our internal list of CRISPR screens. Highlighted genes (red) are the same as those labelled in the beta score scatter above, as selected by the original authors. The dashed line marks p-value = 0.001, the threshold applied below. Dots stacked along the top edge of the plot represent genes with a p-value of exactly 0, i.e. –log10(0) = ∞."
+  },
+  {
+    "objectID": "data-extraction/yang-2024.html#extract-gene-lists",
+    "href": "data-extraction/yang-2024.html#extract-gene-lists",
+    "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
+    "section": "Extract gene lists",
+    "text": "Extract gene lists\n\n\n$yang_2024_cys_starv_0_high_score\n[1] 12\n\n$yang_2024_cys_starv_0_low_score\n[1] 48"
+  },
+  {
+    "objectID": "data-extraction/yang-2024.html#save-output",
+    "href": "data-extraction/yang-2024.html#save-output",
+    "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
+    "section": "Save output",
+    "text": "Save output\nWrite the gene lists to gene_lists.yaml, each with accompanying metadata.\n\n\nWrote 2 gene lists to data/yang-2024.yaml"
+  },
+  {
+    "objectID": "ferrdb-crosscheck/index.html",
+    "href": "ferrdb-crosscheck/index.html",
+    "title": "Validation against FerrDB",
+    "section": "",
+    "text": "Timson 2024\nYang 2024\nZhang 2022",
+    "crumbs": [
+      "Validation",
+      "FerrDB v3"
+    ]
+  },
+  {
+    "objectID": "ferrdb-crosscheck/yang-2024.html",
+    "href": "ferrdb-crosscheck/yang-2024.html",
+    "title": "Yang 2024 – FerrDB Role Counts",
+    "section": "",
+    "text": "Generated: 2026-04-14 14:40:23"
+  },
+  {
+    "objectID": "ferrdb-crosscheck/yang-2024.html#setup",
+    "href": "ferrdb-crosscheck/yang-2024.html#setup",
+    "title": "Yang 2024 – FerrDB Role Counts",
     "section": "Setup",
     "text": "Setup\nPackages: yaml, dplyr, tidyr, knitr."
   },
   {
-    "objectID": "ferrdb-crosscheck/timson-2024.html#load-data",
-    "href": "ferrdb-crosscheck/timson-2024.html#load-data",
-    "title": "Timson 2024 – FerrDB Role Counts",
+    "objectID": "ferrdb-crosscheck/yang-2024.html#load-data",
+    "href": "ferrdb-crosscheck/yang-2024.html#load-data",
+    "title": "Yang 2024 – FerrDB Role Counts",
     "section": "Load data",
-    "text": "Load data\nGene lists loaded from gene_lists.yaml; FerrDB reference loaded from ferrdb_genes.tsv."
+    "text": "Load data\nGene lists loaded from yang-2024.yaml; FerrDB reference loaded from ferrdb_genes.tsv."
   },
   {
-    "objectID": "ferrdb-crosscheck/timson-2024.html#count-ferrdb-roles-per-gene-list",
-    "href": "ferrdb-crosscheck/timson-2024.html#count-ferrdb-roles-per-gene-list",
-    "title": "Timson 2024 – FerrDB Role Counts",
+    "objectID": "ferrdb-crosscheck/yang-2024.html#count-ferrdb-roles-per-gene-list",
+    "href": "ferrdb-crosscheck/yang-2024.html#count-ferrdb-roles-per-gene-list",
+    "title": "Yang 2024 – FerrDB Role Counts",
     "section": "Count FerrDB roles per gene list",
     "text": "Count FerrDB roles per gene list\nFor each gene list, intersect with FerrDB and count the number of genes assigned each role.\nRole counts computed for each gene list."
   },
   {
-    "objectID": "ferrdb-crosscheck/timson-2024.html#reshape-to-matrix",
-    "href": "ferrdb-crosscheck/timson-2024.html#reshape-to-matrix",
-    "title": "Timson 2024 – FerrDB Role Counts",
+    "objectID": "ferrdb-crosscheck/yang-2024.html#reshape-to-matrix",
+    "href": "ferrdb-crosscheck/yang-2024.html#reshape-to-matrix",
+    "title": "Yang 2024 – FerrDB Role Counts",
     "section": "Reshape to matrix",
-    "text": "Reshape to matrix\nFor each gene list, the table shows how many genes overlap with each FerrDB role category (Driver, Suppressor, Marker, Unclassified), and how many are absent from FerrDB entirely.\n\n\n\n\n\n\n\n\n\n\n\n\n\nGene list\nDriver\nSuppressor\nMarker\nUnclassified\nNot in FerrDB\n\n\n\n\ntimson_2024_cyto_high_score\n0\n0\n0\n0\n1\n\n\ntimson_2024_cyto_low_score\n17\n31\n7\n5\n119\n\n\ntimson_2024_mito_high_score\n0\n0\n0\n0\n1\n\n\ntimson_2024_mito_low_score\n20\n34\n7\n5\n178"
-  },
-  {
-    "objectID": "ferrdb-crosscheck/zhang-2022.html",
-    "href": "ferrdb-crosscheck/zhang-2022.html",
-    "title": "Zhang 2022 – FerrDB Role Counts",
-    "section": "",
-    "text": "Generated: 2026-04-14 14:07:29"
-  },
-  {
-    "objectID": "ferrdb-crosscheck/zhang-2022.html#setup",
-    "href": "ferrdb-crosscheck/zhang-2022.html#setup",
-    "title": "Zhang 2022 – FerrDB Role Counts",
-    "section": "Setup",
-    "text": "Setup\nPackages: yaml, dplyr, tidyr, knitr."
-  },
-  {
-    "objectID": "ferrdb-crosscheck/zhang-2022.html#load-data",
-    "href": "ferrdb-crosscheck/zhang-2022.html#load-data",
-    "title": "Zhang 2022 – FerrDB Role Counts",
-    "section": "Load data",
-    "text": "Load data\nGene lists loaded from zhang-2022.yaml; FerrDB reference loaded from ferrdb_genes.tsv."
-  },
-  {
-    "objectID": "ferrdb-crosscheck/zhang-2022.html#count-ferrdb-roles-per-gene-list",
-    "href": "ferrdb-crosscheck/zhang-2022.html#count-ferrdb-roles-per-gene-list",
-    "title": "Zhang 2022 – FerrDB Role Counts",
-    "section": "Count FerrDB roles per gene list",
-    "text": "Count FerrDB roles per gene list\nFor each gene list, intersect with FerrDB and count the number of genes assigned each role.\nRole counts computed for each gene list."
-  },
-  {
-    "objectID": "ferrdb-crosscheck/zhang-2022.html#reshape-to-matrix",
-    "href": "ferrdb-crosscheck/zhang-2022.html#reshape-to-matrix",
-    "title": "Zhang 2022 – FerrDB Role Counts",
-    "section": "Reshape to matrix",
-    "text": "Reshape to matrix\nFor each gene list, the table shows how many genes overlap with each FerrDB role category (Driver, Suppressor, Marker, Unclassified), and how many are absent from FerrDB entirely.\n\n\n\n\n\n\n\n\n\n\n\n\n\nGene list\nDriver\nSuppressor\nMarker\nUnclassified\nNot in FerrDB\n\n\n\n\nzhang_2022_crispr_high_score\n9\n2\n4\n3\n70\n\n\nzhang_2022_crispr_low_score\n9\n17\n2\n5\n111"
+    "text": "Reshape to matrix\nFor each gene list, the table shows how many genes overlap with each FerrDB role category (Driver, Suppressor, Marker, Unclassified), and how many are absent from FerrDB entirely.\n\n\n\n\n\n\n\n\n\n\n\n\n\nGene list\nDriver\nSuppressor\nMarker\nUnclassified\nNot in FerrDB\n\n\n\n\nyang_2024_cys_starv_0_high_score\n1\n1\n0\n0\n11\n\n\nyang_2024_cys_starv_0_low_score\n1\n2\n0\n0\n45"
   },
   {
     "objectID": "cross-studies/all-studies.html",
     "href": "cross-studies/all-studies.html",
     "title": "All Studies Gene List Overlap",
     "section": "",
-    "text": "This notebook combines all extracted gene lists from notebooks in ../data-extraction/ (excluding index.qmd) into one table and one heatmap.\n\nRows represent genes.\nColumns represent individual extracted lists.\nTRUE (or a colored tile) means that gene appears in that list.\n\nThis gives a quick visual summary of overlap and differences across studies."
+    "text": "This notebook combines all extracted gene lists from notebooks in ../data-extraction/ (excluding index.qmd) into one table and one heatmap.\n\nRows represent genes.\nColumns represent individual extracted lists.\nTRUE (or a colored tile) means that gene appears in that list.\n\nThis gives a quick visual summary of overlap and differences across studies.",
+    "crumbs": [
+      "Cross-studies",
+      "All studies"
+    ]
   },
   {
     "objectID": "cross-studies/all-studies.html#goal",
     "href": "cross-studies/all-studies.html#goal",
     "title": "All Studies Gene List Overlap",
     "section": "",
-    "text": "This notebook combines all extracted gene lists from notebooks in ../data-extraction/ (excluding index.qmd) into one table and one heatmap.\n\nRows represent genes.\nColumns represent individual extracted lists.\nTRUE (or a colored tile) means that gene appears in that list.\n\nThis gives a quick visual summary of overlap and differences across studies."
+    "text": "This notebook combines all extracted gene lists from notebooks in ../data-extraction/ (excluding index.qmd) into one table and one heatmap.\n\nRows represent genes.\nColumns represent individual extracted lists.\nTRUE (or a colored tile) means that gene appears in that list.\n\nThis gives a quick visual summary of overlap and differences across studies.",
+    "crumbs": [
+      "Cross-studies",
+      "All studies"
+    ]
   },
   {
     "objectID": "cross-studies/all-studies.html#build-the-gene-by-list-logical-matrix",
     "href": "cross-studies/all-studies.html#build-the-gene-by-list-logical-matrix",
     "title": "All Studies Gene List Overlap",
     "section": "Build the Gene-by-List Logical Matrix",
-    "text": "Build the Gene-by-List Logical Matrix\n\n\n# A tibble: 478 × 9\n   gene     timson_2024_cyto_hig…¹ timson_2024_cyto_low…² timson_2024_mito_hig…³\n   &lt;chr&gt;    &lt;lgl&gt;                  &lt;lgl&gt;                  &lt;lgl&gt;                 \n 1 AASDHPPT FALSE                  FALSE                  FALSE                 \n 2 ABCB7    FALSE                  TRUE                   FALSE                 \n 3 ABCC1    FALSE                  FALSE                  FALSE                 \n 4 ABCC6    FALSE                  FALSE                  FALSE                 \n 5 ABCE1    FALSE                  TRUE                   FALSE                 \n 6 ABCF1    FALSE                  TRUE                   FALSE                 \n 7 ABHD11   FALSE                  FALSE                  FALSE                 \n 8 ACAD9    FALSE                  FALSE                  FALSE                 \n 9 ACBD4    FALSE                  FALSE                  FALSE                 \n10 ACLY     FALSE                  TRUE                   FALSE                 \n# ℹ 468 more rows\n# ℹ abbreviated names: ¹​timson_2024_cyto_high_score,\n#   ²​timson_2024_cyto_low_score, ³​timson_2024_mito_high_score\n# ℹ 5 more variables: timson_2024_mito_low_score &lt;lgl&gt;,\n#   yang_2024_cys_starv_0_high_score &lt;lgl&gt;,\n#   yang_2024_cys_starv_0_low_score &lt;lgl&gt;, zhang_2022_crispr_high_score &lt;lgl&gt;,\n#   zhang_2022_crispr_low_score &lt;lgl&gt;\n\n\nThe output above is the logical matrix itself. Each TRUE means the gene is present in that specific extracted list."
+    "text": "Build the Gene-by-List Logical Matrix\n\n\n# A tibble: 478 × 9\n   gene     timson_2024_cyto_hig…¹ timson_2024_cyto_low…² timson_2024_mito_hig…³\n   &lt;chr&gt;    &lt;lgl&gt;                  &lt;lgl&gt;                  &lt;lgl&gt;                 \n 1 AASDHPPT FALSE                  FALSE                  FALSE                 \n 2 ABCB7    FALSE                  TRUE                   FALSE                 \n 3 ABCC1    FALSE                  FALSE                  FALSE                 \n 4 ABCC6    FALSE                  FALSE                  FALSE                 \n 5 ABCE1    FALSE                  TRUE                   FALSE                 \n 6 ABCF1    FALSE                  TRUE                   FALSE                 \n 7 ABHD11   FALSE                  FALSE                  FALSE                 \n 8 ACAD9    FALSE                  FALSE                  FALSE                 \n 9 ACBD4    FALSE                  FALSE                  FALSE                 \n10 ACLY     FALSE                  TRUE                   FALSE                 \n# ℹ 468 more rows\n# ℹ abbreviated names: ¹​timson_2024_cyto_high_score,\n#   ²​timson_2024_cyto_low_score, ³​timson_2024_mito_high_score\n# ℹ 5 more variables: timson_2024_mito_low_score &lt;lgl&gt;,\n#   yang_2024_cys_starv_0_high_score &lt;lgl&gt;,\n#   yang_2024_cys_starv_0_low_score &lt;lgl&gt;, zhang_2022_crispr_high_score &lt;lgl&gt;,\n#   zhang_2022_crispr_low_score &lt;lgl&gt;\n\n\nThe output above is the logical matrix itself. Each TRUE means the gene is present in that specific extracted list.",
+    "crumbs": [
+      "Cross-studies",
+      "All studies"
+    ]
   },
   {
     "objectID": "cross-studies/all-studies.html#heatmap-view",
     "href": "cross-studies/all-studies.html#heatmap-view",
     "title": "All Studies Gene List Overlap",
     "section": "Heatmap View",
-    "text": "Heatmap View"
-  },
-  {
-    "objectID": "cross-studies/index.html",
-    "href": "cross-studies/index.html",
-    "title": "Cross-studies comparisons",
-    "section": "",
-    "text": "All studies"
+    "text": "Heatmap View",
+    "crumbs": [
+      "Cross-studies",
+      "All studies"
+    ]
   }
 ]
