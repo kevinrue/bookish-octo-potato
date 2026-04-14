@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Extraction - Yang 2024 – CRISPR Screen Gene List Extraction</title>
+<title>Data Extraction - All Studies Gene List Overlap</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,9 +73,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
-      Data Extraction
-      </li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../cross-studies/all-studies.html">Cross-studies</a></li><li class="breadcrumb-item"><a href="../cross-studies/all-studies.html">All studies</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -129,6 +127,23 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Cross-studies</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cross-studies/all-studies.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">All studies</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../about.html" class="sidebar-item-text sidebar-link">
@@ -145,16 +160,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#setup" id="toc-setup" class="nav-link active" data-scroll-target="#setup">Setup</a></li>
-  <li><a href="#import-data" id="toc-import-data" class="nav-link" data-scroll-target="#import-data">Import data</a></li>
-  <li><a href="#filter-to-genes-only" id="toc-filter-to-genes-only" class="nav-link" data-scroll-target="#filter-to-genes-only">Filter to genes only</a></li>
-  <li><a href="#plots" id="toc-plots" class="nav-link" data-scroll-target="#plots">Plots</a>
-  <ul class="collapse">
-  <li><a href="#beta-score-scatter-0-µm-vs-1-µm" id="toc-beta-score-scatter-0-µm-vs-1-µm" class="nav-link" data-scroll-target="#beta-score-scatter-0-µm-vs-1-µm">Beta score scatter: 0 µM vs 1 µM</a></li>
-  <li><a href="#volcano-plot" id="toc-volcano-plot" class="nav-link" data-scroll-target="#volcano-plot">Volcano plot</a></li>
-  </ul></li>
-  <li><a href="#extract-gene-lists" id="toc-extract-gene-lists" class="nav-link" data-scroll-target="#extract-gene-lists">Extract gene lists</a></li>
-  <li><a href="#save-output" id="toc-save-output" class="nav-link" data-scroll-target="#save-output">Save output</a></li>
+  <li><a href="#goal" id="toc-goal" class="nav-link active" data-scroll-target="#goal">Goal</a></li>
+  <li><a href="#build-the-gene-by-list-logical-matrix" id="toc-build-the-gene-by-list-logical-matrix" class="nav-link" data-scroll-target="#build-the-gene-by-list-logical-matrix">Build the Gene-by-List Logical Matrix</a></li>
+  <li><a href="#heatmap-view" id="toc-heatmap-view" class="nav-link" data-scroll-target="#heatmap-view">Heatmap View</a></li>
   </ul>
 </nav>
     </div>
@@ -163,7 +171,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Yang 2024 – CRISPR Screen Gene List Extraction</h1>
+<h1 class="title">All Studies Gene List Overlap</h1>
 </div>
 
 
@@ -178,66 +186,49 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><em>Generated: 2026-04-14 14:07:13</em></p>
-<section id="setup" class="level2">
-<h2 class="anchored" data-anchor-id="setup">Setup</h2>
-<p>Packages: <code>readxl</code>, <code>dplyr</code>, <code>ggplot2</code>, <code>ggrepel</code>, <code>yaml</code>.</p>
+<section id="goal" class="level2">
+<h2 class="anchored" data-anchor-id="goal">Goal</h2>
+<p>This notebook combines all extracted gene lists from notebooks in <code>../data-extraction/</code> (excluding <code>index.qmd</code>) into one table and one heatmap.</p>
+<ul>
+<li>Rows represent genes.</li>
+<li>Columns represent individual extracted lists.</li>
+<li><code>TRUE</code> (or a colored tile) means that gene appears in that list.</li>
+</ul>
+<p>This gives a quick visual summary of overlap and differences across studies.</p>
 </section>
-<section id="import-data" class="level2">
-<h2 class="anchored" data-anchor-id="import-data">Import data</h2>
-<p>Sheets imported: <code>Cys Starv_Cys 0µM</code> and <code>Cys Starv_Cys 1µM</code>.</p>
-</section>
-<section id="filter-to-genes-only" class="level2">
-<h2 class="anchored" data-anchor-id="filter-to-genes-only">Filter to genes only</h2>
-<p>No row filtering applied.</p>
+<section id="build-the-gene-by-list-logical-matrix" class="level2">
+<h2 class="anchored" data-anchor-id="build-the-gene-by-list-logical-matrix">Build the Gene-by-List Logical Matrix</h2>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
-<pre><code>Rows (0 µM): 18423 </code></pre>
+<pre><code># A tibble: 478 × 9
+   gene     timson_2024_cyto_hig…¹ timson_2024_cyto_low…² timson_2024_mito_hig…³
+   &lt;chr&gt;    &lt;lgl&gt;                  &lt;lgl&gt;                  &lt;lgl&gt;                 
+ 1 AASDHPPT FALSE                  FALSE                  FALSE                 
+ 2 ABCB7    FALSE                  TRUE                   FALSE                 
+ 3 ABCC1    FALSE                  FALSE                  FALSE                 
+ 4 ABCC6    FALSE                  FALSE                  FALSE                 
+ 5 ABCE1    FALSE                  TRUE                   FALSE                 
+ 6 ABCF1    FALSE                  TRUE                   FALSE                 
+ 7 ABHD11   FALSE                  FALSE                  FALSE                 
+ 8 ACAD9    FALSE                  FALSE                  FALSE                 
+ 9 ACBD4    FALSE                  FALSE                  FALSE                 
+10 ACLY     FALSE                  TRUE                   FALSE                 
+# ℹ 468 more rows
+# ℹ abbreviated names: ¹​timson_2024_cyto_high_score,
+#   ²​timson_2024_cyto_low_score, ³​timson_2024_mito_high_score
+# ℹ 5 more variables: timson_2024_mito_low_score &lt;lgl&gt;,
+#   yang_2024_cys_starv_0_high_score &lt;lgl&gt;,
+#   yang_2024_cys_starv_0_low_score &lt;lgl&gt;, zhang_2022_crispr_high_score &lt;lgl&gt;,
+#   zhang_2022_crispr_low_score &lt;lgl&gt;</code></pre>
 </div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Rows (1 µM): 18449 </code></pre>
 </div>
-</div>
+<p>The output above is the logical matrix itself. Each <code>TRUE</code> means the gene is present in that specific extracted list.</p>
 </section>
-<section id="plots" class="level2">
-<h2 class="anchored" data-anchor-id="plots">Plots</h2>
-<section id="beta-score-scatter-0-µm-vs-1-µm" class="level3">
-<h3 class="anchored" data-anchor-id="beta-score-scatter-0-µm-vs-1-µm">Beta score scatter: 0 µM vs 1 µM</h3>
-<p>Sanity check: replicates the authors’ scatter plot of MAGeCK beta scores across the two cysteine conditions, confirming that the data was imported and processed correctly.</p>
+<section id="heatmap-view" class="level2">
+<h2 class="anchored" data-anchor-id="heatmap-view">Heatmap View</h2>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="yang-2024_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="768"></p>
-</div>
-</div>
-</section>
-<section id="volcano-plot" class="level3">
-<h3 class="anchored" data-anchor-id="volcano-plot">Volcano plot</h3>
-<p>Custom plot to inform the selection of thresholds for candidate gene extraction. This plot shows the 0 µM cysteine condition only, which is the sole condition represented in our internal list of CRISPR screens. Highlighted genes (red) are the same as those labelled in the beta score scatter above, as selected by the original authors. The dashed line marks p-value = 0.001, the threshold applied below. Dots stacked along the top edge of the plot represent genes with a p-value of exactly 0, i.e.&nbsp;–log10(0) = ∞.</p>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="yang-2024_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="768"></p>
-</div>
-</div>
-</section>
-</section>
-<section id="extract-gene-lists" class="level2">
-<h2 class="anchored" data-anchor-id="extract-gene-lists">Extract gene lists</h2>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>$yang_2024_cys_starv_0_high_score
-[1] 12
-
-$yang_2024_cys_starv_0_low_score
-[1] 48</code></pre>
-</div>
-</div>
-</section>
-<section id="save-output" class="level2">
-<h2 class="anchored" data-anchor-id="save-output">Save output</h2>
-<p>Write the gene lists to <code>gene_lists.yaml</code>, each with accompanying metadata.</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>Wrote 2 gene lists to data/yang-2024.yaml</code></pre>
+<p><img src="all-studies_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="1056"></p>
 </div>
 </div>
 

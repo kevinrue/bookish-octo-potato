@@ -1,6 +1,0 @@
----
-title: "Validation against FerrDB"
-format: html
----
-
-[Timson 2024](ferrdb-crosscheck/timson-2024.qmd)
