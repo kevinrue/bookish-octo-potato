@@ -129,6 +129,23 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Cross-studies</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cross-studies/all-studies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">All studies</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../about.html" class="sidebar-item-text sidebar-link">
@@ -145,8 +162,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#paper" id="toc-paper" class="nav-link active" data-scroll-target="#paper">Paper</a></li>
-  <li><a href="#setup" id="toc-setup" class="nav-link" data-scroll-target="#setup">Setup</a></li>
+  <li><a href="#setup" id="toc-setup" class="nav-link active" data-scroll-target="#setup">Setup</a></li>
   <li><a href="#import-data" id="toc-import-data" class="nav-link" data-scroll-target="#import-data">Import data</a></li>
   <li><a href="#filter-to-genes-only" id="toc-filter-to-genes-only" class="nav-link" data-scroll-target="#filter-to-genes-only">Filter to genes only</a></li>
   <li><a href="#rank-genes" id="toc-rank-genes" class="nav-link" data-scroll-target="#rank-genes">Rank genes</a></li>
@@ -181,11 +197,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><em>Generated: 2026-04-15 11:29:00</em></p>
-<section id="paper" class="level2">
-<h2 class="anchored" data-anchor-id="paper">Paper</h2>
-<p><a href="https://doi.org/10.1016/j.jbc.2024.105645">Timson et al.&nbsp;2024</a></p>
-</section>
+<p><em>Generated: 2026-04-16 15:55:49</em></p>
 <section id="setup" class="level2">
 <h2 class="anchored" data-anchor-id="setup">Setup</h2>
 <p>Packages: <code>readxl</code>, <code>dplyr</code>, <code>ggplot2</code>, <code>ggrepel</code>, <code>yaml</code>.</p>
@@ -214,7 +226,6 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="plots">Plots</h2>
 <section id="cyto-score-ranked-plot" class="level3">
 <h3 class="anchored" data-anchor-id="cyto-score-ranked-plot">Cyto score ranked plot</h3>
-<p>This plot replicates figure 2D (left panel) from the original publication, confirming that the data was imported and processed correctly.</p>
 <p>Genes ranked by ascending cytoplasmic gshF score under BSO treatment. GCLM is highlighted as a positive control — it encodes the modifier subunit of glutamate-cysteine ligase, a key enzyme in glutathione biosynthesis. The dashed lines mark the ±1.5 threshold used to extract the high- and low-score gene lists below.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -224,7 +235,6 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="mito-score-ranked-plot" class="level3">
 <h3 class="anchored" data-anchor-id="mito-score-ranked-plot">Mito score ranked plot</h3>
-<p>This plot replicates figure 2D (right panel) from the original publication, confirming that the data was imported and processed correctly.</p>
 <p>Same as above for the mitochondrial gshF condition. GCLM is again highlighted as a reference point.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -234,7 +244,6 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="cyto-rank-vs-mito-rank-log-log" class="level3">
 <h3 class="anchored" data-anchor-id="cyto-rank-vs-mito-rank-log-log">Cyto rank vs mito rank (log-log)</h3>
-<p>This plot replicates figure 2C (left panel) from the original publication, confirming that the data was imported and processed correctly.</p>
 <p>Cross-condition comparison of gene ranks on log scales. Genes in the lower-left corner score poorly (low rank) in both conditions, suggesting relevance to glutathione homeostasis regardless of compartment. Highlighted genes are known those labelled by the original authors in their figure, used here as reference points to confirm the data was imported and processed correctly.</p>
 <div class="cell">
 <div class="cell-output-display">

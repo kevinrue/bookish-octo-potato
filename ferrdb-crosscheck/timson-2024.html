@@ -129,6 +129,23 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Cross-studies</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cross-studies/all-studies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">All studies</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../about.html" class="sidebar-item-text sidebar-link">
@@ -149,6 +166,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#load-data" id="toc-load-data" class="nav-link" data-scroll-target="#load-data">Load data</a></li>
   <li><a href="#count-ferrdb-roles-per-gene-list" id="toc-count-ferrdb-roles-per-gene-list" class="nav-link" data-scroll-target="#count-ferrdb-roles-per-gene-list">Count FerrDB roles per gene list</a></li>
   <li><a href="#reshape-to-matrix" id="toc-reshape-to-matrix" class="nav-link" data-scroll-target="#reshape-to-matrix">Reshape to matrix</a></li>
+  <li><a href="#cumulative-ferrdb-hits-by-rank" id="toc-cumulative-ferrdb-hits-by-rank" class="nav-link" data-scroll-target="#cumulative-ferrdb-hits-by-rank">Cumulative FerrDB hits by rank</a></li>
   </ul>
 </nav>
     </div>
@@ -172,10 +190,10 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><em>Generated: 2026-04-15 11:29:15</em></p>
+<p><em>Generated: 2026-04-16 15:56:04</em></p>
 <section id="setup" class="level2">
 <h2 class="anchored" data-anchor-id="setup">Setup</h2>
-<p>Packages: <code>yaml</code>, <code>dplyr</code>, <code>tidyr</code>, <code>knitr</code>.</p>
+<p>Packages: <code>yaml</code>, <code>dplyr</code>, <code>tidyr</code>, <code>knitr</code>, <code>ggplot2</code>.</p>
 </section>
 <section id="load-data" class="level2">
 <h2 class="anchored" data-anchor-id="load-data">Load data</h2>
@@ -245,6 +263,15 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
+</div>
+</div>
+</section>
+<section id="cumulative-ferrdb-hits-by-rank" class="level2">
+<h2 class="anchored" data-anchor-id="cumulative-ferrdb-hits-by-rank">Cumulative FerrDB hits by rank</h2>
+<p>For each gene list, genes are already ordered by decreasing absolute score. The plot shows the cumulative count of genes classified as driver, suppressor, or marker in FerrDB as a function of rank. A steeper curve indicates that high-scoring genes are more enriched for ferroptosis-relevant roles.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="timson-2024_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="1152"></p>
 </div>
 </div>
 

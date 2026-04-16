@@ -129,6 +129,23 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Cross-studies</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cross-studies/all-studies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">All studies</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../about.html" class="sidebar-item-text sidebar-link">
@@ -145,8 +162,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#paper" id="toc-paper" class="nav-link active" data-scroll-target="#paper">Paper</a></li>
-  <li><a href="#setup" id="toc-setup" class="nav-link" data-scroll-target="#setup">Setup</a></li>
+  <li><a href="#setup" id="toc-setup" class="nav-link active" data-scroll-target="#setup">Setup</a></li>
   <li><a href="#import-data" id="toc-import-data" class="nav-link" data-scroll-target="#import-data">Import data</a></li>
   <li><a href="#filter-to-genes-only" id="toc-filter-to-genes-only" class="nav-link" data-scroll-target="#filter-to-genes-only">Filter to genes only</a></li>
   <li><a href="#plots" id="toc-plots" class="nav-link" data-scroll-target="#plots">Plots</a>
@@ -179,11 +195,7 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><em>Generated: 2026-04-15 11:29:05</em></p>
-<section id="paper" class="level2">
-<h2 class="anchored" data-anchor-id="paper">Paper</h2>
-<p><a href="https://doi.org/10.1016/j.cmet.2024.01.006">Yang et al.&nbsp;2024</a></p>
-</section>
+<p><em>Generated: 2026-04-16 15:55:54</em></p>
 <section id="setup" class="level2">
 <h2 class="anchored" data-anchor-id="setup">Setup</h2>
 <p>Packages: <code>readxl</code>, <code>dplyr</code>, <code>ggplot2</code>, <code>ggrepel</code>, <code>yaml</code>.</p>
@@ -208,8 +220,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="plots">Plots</h2>
 <section id="beta-score-scatter-0-µm-vs-1-µm" class="level3">
 <h3 class="anchored" data-anchor-id="beta-score-scatter-0-µm-vs-1-µm">Beta score scatter: 0 µM vs 1 µM</h3>
-<p>This plot replicates figure S1B from the original publication, confirming that the data was imported and processed correctly.</p>
-<p>MAGeCK beta scores for each gene plotted across the two cysteine conditions (0 µM vs 1 µM). Genes with consistently negative beta scores in both conditions — appearing in the lower-left quadrant — are candidates whose loss is detrimental under cysteine limitation regardless of its severity. Highlighted genes (red) are those labelled by the original authors.</p>
+<p>Sanity check: replicates the authors’ scatter plot of MAGeCK beta scores across the two cysteine conditions, confirming that the data was imported and processed correctly.</p>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="yang-2024_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="768"></p>
