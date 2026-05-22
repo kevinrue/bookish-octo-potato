@@ -177,6 +177,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#study-hit-counts-per-gene" id="toc-study-hit-counts-per-gene" class="nav-link" data-scroll-target="#study-hit-counts-per-gene">Study Hit Counts per Gene</a></li>
   <li><a href="#gene-list-hit-counts-per-gene" id="toc-gene-list-hit-counts-per-gene" class="nav-link" data-scroll-target="#gene-list-hit-counts-per-gene">Gene List Hit Counts per Gene</a></li>
   <li><a href="#genestudylist-reference-table" id="toc-genestudylist-reference-table" class="nav-link" data-scroll-target="#genestudylist-reference-table">Gene–Study–List Reference Table</a></li>
+  <li><a href="#excel-export" id="toc-excel-export" class="nav-link" data-scroll-target="#excel-export">Excel Export</a></li>
   </ul>
 </nav>
     </div>
@@ -218,18 +219,18 @@ ul.task-list li input[type="checkbox"] {
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 524 × 11
-   gene     timson_2024_cyto_hig…¹ timson_2024_cyto_low…² timson_2024_mito_hig…³
-   &lt;chr&gt;    &lt;lgl&gt;                  &lt;lgl&gt;                  &lt;lgl&gt;                 
- 1 AASDHPPT FALSE                  FALSE                  FALSE                 
- 2 ABCB7    FALSE                  TRUE                   FALSE                 
- 3 ABCC1    FALSE                  FALSE                  FALSE                 
- 4 ABCC6    FALSE                  FALSE                  FALSE                 
- 5 ABCE1    FALSE                  TRUE                   FALSE                 
- 6 ABCF1    FALSE                  TRUE                   FALSE                 
- 7 ABHD11   FALSE                  FALSE                  FALSE                 
- 8 ACAD9    FALSE                  FALSE                  FALSE                 
- 9 ACBD4    FALSE                  FALSE                  FALSE                 
-10 ACLY     FALSE                  TRUE                   FALSE                 
+   gene   timson_2024_cyto_high_…¹ timson_2024_cyto_low…² timson_2024_mito_hig…³
+   &lt;chr&gt;  &lt;lgl&gt;                    &lt;lgl&gt;                  &lt;lgl&gt;                 
+ 1 KEAP1  FALSE                    TRUE                   FALSE                 
+ 2 LIPT1  FALSE                    TRUE                   FALSE                 
+ 3 NDUFA1 FALSE                    TRUE                   FALSE                 
+ 4 NDUFA2 FALSE                    TRUE                   FALSE                 
+ 5 NDUFS1 FALSE                    TRUE                   FALSE                 
+ 6 PAICS  FALSE                    TRUE                   FALSE                 
+ 7 RRM1   FALSE                    TRUE                   FALSE                 
+ 8 SEPHS2 FALSE                    TRUE                   FALSE                 
+ 9 ALDOA  FALSE                    TRUE                   FALSE                 
+10 ASNA1  FALSE                    TRUE                   FALSE                 
 # ℹ 514 more rows
 # ℹ abbreviated names: ¹​timson_2024_cyto_high_score,
 #   ²​timson_2024_cyto_low_score, ³​timson_2024_mito_high_score
@@ -339,6 +340,15 @@ ul.task-list li input[type="checkbox"] {
  9 ABCF1    timson_2024 timson_2024_mito_low_score  
 10 ABHD11   timson_2024 timson_2024_mito_low_score  
 # ℹ 733 more rows</code></pre>
+</div>
+</div>
+</section>
+<section id="excel-export" class="level2">
+<h2 class="anchored" data-anchor-id="excel-export">Excel Export</h2>
+<p>A CSV file intended for browsing and filtering in Excel. Each row is a gene; columns are: <code>gene</code>, <code>n_studies</code>, <code>n_lists</code>, then one logical column per gene list. Genes are ordered by <code>n_studies</code> descending, then <code>n_lists</code> descending, then alphabetically.</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>Wrote 524 genes to data/gene_by_list.csv</code></pre>
 </div>
 </div>
 

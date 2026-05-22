@@ -14,7 +14,7 @@
     "href": "ferrdb-crosscheck/zhang-2022.html",
     "title": "Zhang 2022 – FerrDB Role Counts",
     "section": "",
-    "text": "Generated: 2026-05-22 13:44:24"
+    "text": "Generated: 2026-05-22 15:15:00"
   },
   {
     "objectID": "ferrdb-crosscheck/zhang-2022.html#setup",
@@ -56,7 +56,7 @@
     "href": "ferrdb-crosscheck/timson-2024.html",
     "title": "Timson 2024 – FerrDB Role Counts",
     "section": "",
-    "text": "Generated: 2026-05-22 13:44:16"
+    "text": "Generated: 2026-05-22 15:14:51"
   },
   {
     "objectID": "ferrdb-crosscheck/timson-2024.html#setup",
@@ -98,7 +98,7 @@
     "href": "data-extraction/zhang-2022.html",
     "title": "Zhang 2022 – CRISPR Screen Gene List Extraction",
     "section": "",
-    "text": "Generated: 2026-05-22 13:44:10"
+    "text": "Generated: 2026-05-22 15:14:44"
   },
   {
     "objectID": "data-extraction/zhang-2022.html#paper",
@@ -154,7 +154,7 @@
     "href": "data-extraction/timson-2024.html",
     "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
     "section": "",
-    "text": "Generated: 2026-05-22 13:43:54"
+    "text": "Generated: 2026-05-22 15:14:27"
   },
   {
     "objectID": "data-extraction/timson-2024.html#paper",
@@ -217,7 +217,7 @@
     "href": "databases/ferrdb-v3.html",
     "title": "FerrDb – Known Ferroptosis Modulators extraction",
     "section": "",
-    "text": "Generated: 2026-05-22 13:43:48"
+    "text": "Generated: 2026-05-22 15:14:20"
   },
   {
     "objectID": "databases/ferrdb-v3.html#setup",
@@ -286,7 +286,7 @@
     "href": "data-extraction/yang-2024.html",
     "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
     "section": "",
-    "text": "Generated: 2026-05-22 13:44:00"
+    "text": "Generated: 2026-05-22 15:14:33"
   },
   {
     "objectID": "data-extraction/yang-2024.html#paper",
@@ -353,7 +353,7 @@
     "href": "ferrdb-crosscheck/yang-2024.html",
     "title": "Yang 2024 – FerrDB Role Counts",
     "section": "",
-    "text": "Generated: 2026-05-22 13:44:20"
+    "text": "Generated: 2026-05-22 15:14:55"
   },
   {
     "objectID": "ferrdb-crosscheck/yang-2024.html#setup",
@@ -417,7 +417,7 @@
     "href": "cross-studies/all-studies.html#build-the-gene-by-list-logical-matrix",
     "title": "All Studies Gene List Overlap",
     "section": "Build the Gene-by-List Logical Matrix",
-    "text": "Build the Gene-by-List Logical Matrix\nThe table below has one row per gene and one column per extracted list. Each cell is TRUE if that gene appears in that list and FALSE otherwise.\n\n\n# A tibble: 524 × 11\n   gene     timson_2024_cyto_hig…¹ timson_2024_cyto_low…² timson_2024_mito_hig…³\n   &lt;chr&gt;    &lt;lgl&gt;                  &lt;lgl&gt;                  &lt;lgl&gt;                 \n 1 AASDHPPT FALSE                  FALSE                  FALSE                 \n 2 ABCB7    FALSE                  TRUE                   FALSE                 \n 3 ABCC1    FALSE                  FALSE                  FALSE                 \n 4 ABCC6    FALSE                  FALSE                  FALSE                 \n 5 ABCE1    FALSE                  TRUE                   FALSE                 \n 6 ABCF1    FALSE                  TRUE                   FALSE                 \n 7 ABHD11   FALSE                  FALSE                  FALSE                 \n 8 ACAD9    FALSE                  FALSE                  FALSE                 \n 9 ACBD4    FALSE                  FALSE                  FALSE                 \n10 ACLY     FALSE                  TRUE                   FALSE                 \n# ℹ 514 more rows\n# ℹ abbreviated names: ¹​timson_2024_cyto_high_score,\n#   ²​timson_2024_cyto_low_score, ³​timson_2024_mito_high_score\n# ℹ 7 more variables: timson_2024_mito_low_score &lt;lgl&gt;,\n#   yang_2024_cys_starv_0_high_score &lt;lgl&gt;,\n#   yang_2024_cys_starv_0_low_score &lt;lgl&gt;,\n#   yang_2024_cys_starv_1_high_score &lt;lgl&gt;, …",
+    "text": "Build the Gene-by-List Logical Matrix\nThe table below has one row per gene and one column per extracted list. Each cell is TRUE if that gene appears in that list and FALSE otherwise.\n\n\n# A tibble: 524 × 11\n   gene   timson_2024_cyto_high_…¹ timson_2024_cyto_low…² timson_2024_mito_hig…³\n   &lt;chr&gt;  &lt;lgl&gt;                    &lt;lgl&gt;                  &lt;lgl&gt;                 \n 1 KEAP1  FALSE                    TRUE                   FALSE                 \n 2 LIPT1  FALSE                    TRUE                   FALSE                 \n 3 NDUFA1 FALSE                    TRUE                   FALSE                 \n 4 NDUFA2 FALSE                    TRUE                   FALSE                 \n 5 NDUFS1 FALSE                    TRUE                   FALSE                 \n 6 PAICS  FALSE                    TRUE                   FALSE                 \n 7 RRM1   FALSE                    TRUE                   FALSE                 \n 8 SEPHS2 FALSE                    TRUE                   FALSE                 \n 9 ALDOA  FALSE                    TRUE                   FALSE                 \n10 ASNA1  FALSE                    TRUE                   FALSE                 \n# ℹ 514 more rows\n# ℹ abbreviated names: ¹​timson_2024_cyto_high_score,\n#   ²​timson_2024_cyto_low_score, ³​timson_2024_mito_high_score\n# ℹ 7 more variables: timson_2024_mito_low_score &lt;lgl&gt;,\n#   yang_2024_cys_starv_0_high_score &lt;lgl&gt;,\n#   yang_2024_cys_starv_0_low_score &lt;lgl&gt;,\n#   yang_2024_cys_starv_1_high_score &lt;lgl&gt;, …",
     "crumbs": [
       "Cross-studies",
       "All studies"
@@ -462,6 +462,17 @@
     "title": "All Studies Gene List Overlap",
     "section": "Gene–Study–List Reference Table",
     "text": "Gene–Study–List Reference Table\nThe table below is a long-format reference: one row per (gene, gene list) combination, limited to genes that are present in at least one list. The study column is derived from the first two tokens of the list ID (e.g. timson_2024). Use this table to look up, for any gene of interest, which studies and which specific lists it was identified in.\n\n\n# A tibble: 743 × 3\n   gene     study       gene_list                   \n   &lt;chr&gt;    &lt;chr&gt;       &lt;chr&gt;                       \n 1 AASDHPPT timson_2024 timson_2024_mito_low_score  \n 2 ABCB7    timson_2024 timson_2024_cyto_low_score  \n 3 ABCB7    timson_2024 timson_2024_mito_low_score  \n 4 ABCC1    zhang_2022  zhang_2022_crispr_high_score\n 5 ABCC6    zhang_2022  zhang_2022_crispr_high_score\n 6 ABCE1    timson_2024 timson_2024_cyto_low_score  \n 7 ABCE1    timson_2024 timson_2024_mito_low_score  \n 8 ABCF1    timson_2024 timson_2024_cyto_low_score  \n 9 ABCF1    timson_2024 timson_2024_mito_low_score  \n10 ABHD11   timson_2024 timson_2024_mito_low_score  \n# ℹ 733 more rows",
+    "crumbs": [
+      "Cross-studies",
+      "All studies"
+    ]
+  },
+  {
+    "objectID": "cross-studies/all-studies.html#excel-export",
+    "href": "cross-studies/all-studies.html#excel-export",
+    "title": "All Studies Gene List Overlap",
+    "section": "Excel Export",
+    "text": "Excel Export\nA CSV file intended for browsing and filtering in Excel. Each row is a gene; columns are: gene, n_studies, n_lists, then one logical column per gene list. Genes are ordered by n_studies descending, then n_lists descending, then alphabetically.\n\n\nWrote 524 genes to data/gene_by_list.csv",
     "crumbs": [
       "Cross-studies",
       "All studies"
