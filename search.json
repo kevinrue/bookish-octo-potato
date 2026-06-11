@@ -11,7 +11,7 @@
     "href": "ferrdb-crosscheck/zhang-2022.html",
     "title": "Zhang 2022 – FerrDB Role Counts",
     "section": "",
-    "text": "Generated: 2026-06-11 15:03:30"
+    "text": "Generated: 2026-06-11 15:26:25"
   },
   {
     "objectID": "ferrdb-crosscheck/zhang-2022.html#setup",
@@ -53,7 +53,7 @@
     "href": "ferrdb-crosscheck/timson-2024.html",
     "title": "Timson 2024 – FerrDB Role Counts",
     "section": "",
-    "text": "Generated: 2026-06-11 15:03:21"
+    "text": "Generated: 2026-06-11 15:26:15"
   },
   {
     "objectID": "ferrdb-crosscheck/timson-2024.html#setup",
@@ -95,7 +95,7 @@
     "href": "data-extraction/zhang-2022.html",
     "title": "Zhang 2022 – CRISPR Screen Gene List Extraction",
     "section": "",
-    "text": "Generated: 2026-06-11 15:03:16"
+    "text": "Generated: 2026-06-11 15:26:09"
   },
   {
     "objectID": "data-extraction/zhang-2022.html#paper",
@@ -151,7 +151,7 @@
     "href": "data-extraction/timson-2024.html",
     "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
     "section": "",
-    "text": "Generated: 2026-06-11 15:03:04"
+    "text": "Generated: 2026-06-11 15:25:58"
   },
   {
     "objectID": "data-extraction/timson-2024.html#paper",
@@ -214,7 +214,7 @@
     "href": "databases/ferrdb-v3.html",
     "title": "FerrDb – Known Ferroptosis Modulators extraction",
     "section": "",
-    "text": "Generated: 2026-06-11 15:02:57"
+    "text": "Generated: 2026-06-11 15:25:51"
   },
   {
     "objectID": "databases/ferrdb-v3.html#setup",
@@ -277,7 +277,7 @@
     "href": "data-extraction/yang-2024.html",
     "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
     "section": "",
-    "text": "Generated: 2026-06-11 15:03:09"
+    "text": "Generated: 2026-06-11 15:26:03"
   },
   {
     "objectID": "data-extraction/yang-2024.html#paper",
@@ -340,7 +340,7 @@
     "href": "ferrdb-crosscheck/yang-2024.html",
     "title": "Yang 2024 – FerrDB Role Counts",
     "section": "",
-    "text": "Generated: 2026-06-11 15:03:25"
+    "text": "Generated: 2026-06-11 15:26:20"
   },
   {
     "objectID": "ferrdb-crosscheck/yang-2024.html#setup",
@@ -411,6 +411,13 @@
     "title": "All Studies Gene List Overlap",
     "section": "Study Hit Counts per Gene",
     "text": "Study Hit Counts per Gene\nA gene appearing in more than one study provides stronger cross-study evidence for a role in ferroptosis regulation. The table below counts, for each gene, how many distinct studies include it in at least one extracted list. A gene is counted once per study regardless of how many lists within that study contain it. List IDs follow the {author}_{year}_... convention, so the study is taken as the first two underscore-delimited tokens.\n\n\n# A tibble: 524 × 2\n   gene    n_studies\n   &lt;chr&gt;       &lt;int&gt;\n 1 KEAP1           3\n 2 RRM1            3\n 3 ALDOA           2\n 4 ASNA1           2\n 5 CDIPT           2\n 6 CNEP1R1         2\n 7 COQ3            2\n 8 COX5B           2\n 9 FXN             2\n10 GLRX5           2\n# ℹ 514 more rows\n\n\nThe table below summarises how many genes are supported by exactly 1, 2, 3, … independent studies.\n\n\n# A tibble: 3 × 2\n  n_studies n_genes\n      &lt;int&gt;   &lt;int&gt;\n1         3       2\n2         2      35\n3         1     487"
+  },
+  {
+    "objectID": "cross-studies/all-studies.html#ferrdb-coverage-by-study-count",
+    "href": "cross-studies/all-studies.html#ferrdb-coverage-by-study-count",
+    "title": "All Studies Gene List Overlap",
+    "section": "FerrDB Coverage by Study Count",
+    "text": "FerrDB Coverage by Study Count\nFor each number of studies in which a gene was identified, the bar plot below shows what fraction of those genes are already catalogued in FerrDB v3. A rising trend would indicate that genes replicated across more studies are progressively more likely to be known ferroptosis modulators."
   },
   {
     "objectID": "cross-studies/all-studies.html#gene-list-hit-counts-per-gene",
