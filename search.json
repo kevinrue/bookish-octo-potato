@@ -4,24 +4,21 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "This website was built using Quarto.",
-    "crumbs": [
-      "About"
-    ]
+    "text": "This website was built using Quarto."
   },
   {
     "objectID": "ferrdb-crosscheck/zhang-2022.html",
     "href": "ferrdb-crosscheck/zhang-2022.html",
     "title": "Zhang 2022 – FerrDB Role Counts",
     "section": "",
-    "text": "Generated: 2026-05-22 15:15:00"
+    "text": "Generated: 2026-06-11 15:03:30"
   },
   {
     "objectID": "ferrdb-crosscheck/zhang-2022.html#setup",
     "href": "ferrdb-crosscheck/zhang-2022.html#setup",
     "title": "Zhang 2022 – FerrDB Role Counts",
     "section": "Setup",
-    "text": "Setup\nPackages: yaml, dplyr, tidyr, knitr, ggplot2."
+    "text": "Setup\n\n\nWarning: package 'yaml' was built under R version 4.5.2\n\n\nWarning: package 'dplyr' was built under R version 4.5.2\n\n\nWarning: package 'ggplot2' was built under R version 4.5.2\n\n\nPackages: yaml, dplyr, tidyr, knitr, ggplot2."
   },
   {
     "objectID": "ferrdb-crosscheck/zhang-2022.html#load-data",
@@ -56,14 +53,14 @@
     "href": "ferrdb-crosscheck/timson-2024.html",
     "title": "Timson 2024 – FerrDB Role Counts",
     "section": "",
-    "text": "Generated: 2026-05-22 15:14:51"
+    "text": "Generated: 2026-06-11 15:03:21"
   },
   {
     "objectID": "ferrdb-crosscheck/timson-2024.html#setup",
     "href": "ferrdb-crosscheck/timson-2024.html#setup",
     "title": "Timson 2024 – FerrDB Role Counts",
     "section": "Setup",
-    "text": "Setup\nPackages: yaml, dplyr, tidyr, knitr, ggplot2."
+    "text": "Setup\n\n\nWarning: package 'yaml' was built under R version 4.5.2\n\n\nWarning: package 'dplyr' was built under R version 4.5.2\n\n\nWarning: package 'ggplot2' was built under R version 4.5.2\n\n\nPackages: yaml, dplyr, tidyr, knitr, ggplot2."
   },
   {
     "objectID": "ferrdb-crosscheck/timson-2024.html#load-data",
@@ -98,7 +95,7 @@
     "href": "data-extraction/zhang-2022.html",
     "title": "Zhang 2022 – CRISPR Screen Gene List Extraction",
     "section": "",
-    "text": "Generated: 2026-05-22 15:14:44"
+    "text": "Generated: 2026-06-11 15:03:16"
   },
   {
     "objectID": "data-extraction/zhang-2022.html#paper",
@@ -112,7 +109,7 @@
     "href": "data-extraction/zhang-2022.html#setup",
     "title": "Zhang 2022 – CRISPR Screen Gene List Extraction",
     "section": "Setup",
-    "text": "Setup\nPackages: readxl, dplyr, ggplot2, ggrepel, yaml."
+    "text": "Setup\n\n\nWarning: package 'dplyr' was built under R version 4.5.2\n\n\nWarning: package 'ggplot2' was built under R version 4.5.2\n\n\nWarning: package 'yaml' was built under R version 4.5.2\n\n\nPackages: readxl, dplyr, ggplot2, ggrepel, yaml."
   },
   {
     "objectID": "data-extraction/zhang-2022.html#import-data",
@@ -154,7 +151,7 @@
     "href": "data-extraction/timson-2024.html",
     "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
     "section": "",
-    "text": "Generated: 2026-05-22 15:14:27"
+    "text": "Generated: 2026-06-11 15:03:04"
   },
   {
     "objectID": "data-extraction/timson-2024.html#paper",
@@ -168,7 +165,7 @@
     "href": "data-extraction/timson-2024.html#setup",
     "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
     "section": "Setup",
-    "text": "Setup\nPackages: readxl, dplyr, ggplot2, ggrepel, yaml."
+    "text": "Setup\n\n\nWarning: package 'dplyr' was built under R version 4.5.2\n\n\nWarning: package 'ggplot2' was built under R version 4.5.2\n\n\nWarning: package 'yaml' was built under R version 4.5.2\n\n\nPackages: readxl, dplyr, ggplot2, ggrepel, yaml."
   },
   {
     "objectID": "data-extraction/timson-2024.html#import-data",
@@ -196,7 +193,7 @@
     "href": "data-extraction/timson-2024.html#plots",
     "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
     "section": "Plots",
-    "text": "Plots\n\nCyto score ranked plot\nThis plot replicates figure 2D (left panel) from the original publication, confirming that the data was imported and processed correctly.\nGenes ranked by ascending cytoplasmic gshF score under BSO treatment. GCLM is highlighted as a positive control — it encodes the modifier subunit of glutamate-cysteine ligase, a key enzyme in glutathione biosynthesis. The dashed lines mark the ±1.5 threshold used to extract the high- and low-score gene lists below.\n\n\n\n\n\n\n\n\n\n\n\nMito score ranked plot\nThis plot replicates figure 2D (right panel) from the original publication, confirming that the data was imported and processed correctly.\nSame as above for the mitochondrial gshF condition. GCLM is again highlighted as a reference point.\n\n\n\n\n\n\n\n\n\n\n\nCyto rank vs mito rank (log-log)\nThis plot replicates figure 2C (left panel) from the original publication, confirming that the data was imported and processed correctly.\nCross-condition comparison of gene ranks on log scales. Genes in the lower-left corner score poorly (low rank) in both conditions, suggesting relevance to glutathione homeostasis regardless of compartment. Highlighted genes are known those labelled by the original authors in their figure, used here as reference points to confirm the data was imported and processed correctly."
+    "text": "Plots\n\nCyto score ranked plot\nThis plot replicates figure 2D (left panel) from the original publication, confirming that the data was imported and processed correctly.\nGenes ranked by ascending cytoplasmic gshF score under BSO treatment. GCLM is highlighted as a positive control — it encodes the modifier subunit of glutamate-cysteine ligase, a key enzyme in glutathione biosynthesis. The dashed lines mark the ±1.5 threshold used to extract the high- and low-score gene lists below.\n\n\n\n\n\n\n\nMito score ranked plot\nThis plot replicates figure 2D (right panel) from the original publication, confirming that the data was imported and processed correctly.\nSame as above for the mitochondrial gshF condition. GCLM is again highlighted as a reference point.\n\n\n\n\n\n\n\nCyto rank vs mito rank (log-log)\nThis plot replicates figure 2C (left panel) from the original publication, confirming that the data was imported and processed correctly.\nCross-condition comparison of gene ranks on log scales. Genes in the lower-left corner score poorly (low rank) in both conditions, suggesting relevance to glutathione homeostasis regardless of compartment. Highlighted genes are known those labelled by the original authors in their figure, used here as reference points to confirm the data was imported and processed correctly."
   },
   {
     "objectID": "data-extraction/timson-2024.html#extract-gene-lists",
@@ -217,14 +214,14 @@
     "href": "databases/ferrdb-v3.html",
     "title": "FerrDb – Known Ferroptosis Modulators extraction",
     "section": "",
-    "text": "Generated: 2026-05-22 15:14:20"
+    "text": "Generated: 2026-06-11 15:02:57"
   },
   {
     "objectID": "databases/ferrdb-v3.html#setup",
     "href": "databases/ferrdb-v3.html#setup",
     "title": "FerrDb – Known Ferroptosis Modulators extraction",
     "section": "Setup",
-    "text": "Setup\nPackages: readr, dplyr, ggplot2."
+    "text": "Setup\n\n\nWarning: package 'dplyr' was built under R version 4.5.2\n\n\nWarning: package 'ggplot2' was built under R version 4.5.2\n\n\nPackages: readr, dplyr, ggplot2."
   },
   {
     "objectID": "databases/ferrdb-v3.html#load-data",
@@ -266,27 +263,21 @@
     "href": "databases/index.html",
     "title": "Databases",
     "section": "",
-    "text": "FerrDB v3",
-    "crumbs": [
-      "Databases"
-    ]
+    "text": "FerrDB v3"
   },
   {
     "objectID": "data-extraction/index.html",
     "href": "data-extraction/index.html",
     "title": "Papers",
     "section": "",
-    "text": "Timson 2024\nYang 2024\nZhang 2022",
-    "crumbs": [
-      "Papers"
-    ]
+    "text": "Timson 2024\nYang 2024\nZhang 2022"
   },
   {
     "objectID": "data-extraction/yang-2024.html",
     "href": "data-extraction/yang-2024.html",
     "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
     "section": "",
-    "text": "Generated: 2026-05-22 15:14:33"
+    "text": "Generated: 2026-06-11 15:03:09"
   },
   {
     "objectID": "data-extraction/yang-2024.html#paper",
@@ -300,7 +291,7 @@
     "href": "data-extraction/yang-2024.html#setup",
     "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
     "section": "Setup",
-    "text": "Setup\nPackages: readxl, dplyr, ggplot2, ggrepel, yaml."
+    "text": "Setup\n\n\nWarning: package 'dplyr' was built under R version 4.5.2\n\n\nWarning: package 'ggplot2' was built under R version 4.5.2\n\n\nWarning: package 'yaml' was built under R version 4.5.2\n\n\nPackages: readxl, dplyr, ggplot2, ggrepel, yaml."
   },
   {
     "objectID": "data-extraction/yang-2024.html#import-data",
@@ -321,7 +312,7 @@
     "href": "data-extraction/yang-2024.html#plots",
     "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
     "section": "Plots",
-    "text": "Plots\n\nBeta score scatter: 0 µM vs 1 µM\nThis plot replicates figure S1B from the original publication, confirming that the data was imported and processed correctly.\nMAGeCK beta scores for each gene plotted across the two cysteine conditions (0 µM vs 1 µM). Genes with consistently negative beta scores in both conditions — appearing in the lower-left quadrant — are candidates whose loss is detrimental under cysteine limitation regardless of its severity. Highlighted genes (red) are those labelled by the original authors.\n\n\n\n\n\n\n\n\n\n\n\nVolcano plot: 0 µM cysteine\nCustom plot to inform the selection of thresholds for candidate gene extraction. Highlighted genes (red) are the same as those labelled in the beta score scatter above, as selected by the original authors. The dashed line marks p-value = 0.001, the threshold applied below. Dots stacked along the top edge of the plot represent genes with a p-value of exactly 0, i.e. –log10(0) = ∞.\n\n\n\n\n\n\n\n\n\n\n\nVolcano plot: 1 µM cysteine\nSame as above for the low cysteine (1 µM) condition. The dashed line marks p-value = 0.001, the threshold applied below."
+    "text": "Plots\n\nBeta score scatter: 0 µM vs 1 µM\nThis plot replicates figure S1B from the original publication, confirming that the data was imported and processed correctly.\nMAGeCK beta scores for each gene plotted across the two cysteine conditions (0 µM vs 1 µM). Genes with consistently negative beta scores in both conditions — appearing in the lower-left quadrant — are candidates whose loss is detrimental under cysteine limitation regardless of its severity. Highlighted genes (red) are those labelled by the original authors.\n\n\n\n\n\n\n\nVolcano plot: 0 µM cysteine\nCustom plot to inform the selection of thresholds for candidate gene extraction. Highlighted genes (red) are the same as those labelled in the beta score scatter above, as selected by the original authors. The dashed line marks p-value = 0.001, the threshold applied below. Dots stacked along the top edge of the plot represent genes with a p-value of exactly 0, i.e. –log10(0) = ∞.\n\n\n\n\n\n\n\nVolcano plot: 1 µM cysteine\nSame as above for the low cysteine (1 µM) condition. The dashed line marks p-value = 0.001, the threshold applied below."
   },
   {
     "objectID": "data-extraction/yang-2024.html#extract-gene-lists",
@@ -342,25 +333,21 @@
     "href": "ferrdb-crosscheck/index.html",
     "title": "Validation against FerrDB",
     "section": "",
-    "text": "Timson 2024\nYang 2024\nZhang 2022",
-    "crumbs": [
-      "Validation",
-      "FerrDB v3"
-    ]
+    "text": "Timson 2024\nYang 2024\nZhang 2022"
   },
   {
     "objectID": "ferrdb-crosscheck/yang-2024.html",
     "href": "ferrdb-crosscheck/yang-2024.html",
     "title": "Yang 2024 – FerrDB Role Counts",
     "section": "",
-    "text": "Generated: 2026-05-22 15:14:55"
+    "text": "Generated: 2026-06-11 15:03:25"
   },
   {
     "objectID": "ferrdb-crosscheck/yang-2024.html#setup",
     "href": "ferrdb-crosscheck/yang-2024.html#setup",
     "title": "Yang 2024 – FerrDB Role Counts",
     "section": "Setup",
-    "text": "Setup\nPackages: yaml, dplyr, tidyr, knitr, ggplot2."
+    "text": "Setup\n\n\nWarning: package 'yaml' was built under R version 4.5.2\n\n\nWarning: package 'dplyr' was built under R version 4.5.2\n\n\nWarning: package 'ggplot2' was built under R version 4.5.2\n\n\nPackages: yaml, dplyr, tidyr, knitr, ggplot2."
   },
   {
     "objectID": "ferrdb-crosscheck/yang-2024.html#load-data",
@@ -395,87 +382,55 @@
     "href": "cross-studies/all-studies.html",
     "title": "All Studies Gene List Overlap",
     "section": "",
-    "text": "This notebook combines all extracted gene lists from notebooks in ../data-extraction/ (excluding index.qmd) into one table and one heatmap.\n\nRows represent genes.\nColumns represent individual extracted lists.\nTRUE (or a colored tile) means that gene appears in that list.\n\nThis gives a quick visual summary of overlap and differences across studies.",
-    "crumbs": [
-      "Cross-studies",
-      "All studies"
-    ]
+    "text": "This notebook combines all extracted gene lists from notebooks in ../data-extraction/ (excluding index.qmd) into one table and one heatmap.\n\nRows represent genes.\nColumns represent individual extracted lists.\nTRUE (or a colored tile) means that gene appears in that list.\n\nThis gives a quick visual summary of overlap and differences across studies."
   },
   {
     "objectID": "cross-studies/all-studies.html#goal",
     "href": "cross-studies/all-studies.html#goal",
     "title": "All Studies Gene List Overlap",
     "section": "",
-    "text": "This notebook combines all extracted gene lists from notebooks in ../data-extraction/ (excluding index.qmd) into one table and one heatmap.\n\nRows represent genes.\nColumns represent individual extracted lists.\nTRUE (or a colored tile) means that gene appears in that list.\n\nThis gives a quick visual summary of overlap and differences across studies.",
-    "crumbs": [
-      "Cross-studies",
-      "All studies"
-    ]
+    "text": "This notebook combines all extracted gene lists from notebooks in ../data-extraction/ (excluding index.qmd) into one table and one heatmap.\n\nRows represent genes.\nColumns represent individual extracted lists.\nTRUE (or a colored tile) means that gene appears in that list.\n\nThis gives a quick visual summary of overlap and differences across studies."
   },
   {
     "objectID": "cross-studies/all-studies.html#build-the-gene-by-list-logical-matrix",
     "href": "cross-studies/all-studies.html#build-the-gene-by-list-logical-matrix",
     "title": "All Studies Gene List Overlap",
     "section": "Build the Gene-by-List Logical Matrix",
-    "text": "Build the Gene-by-List Logical Matrix\nThe table below has one row per gene and one column per extracted list. Each cell is TRUE if that gene appears in that list and FALSE otherwise.\n\n\n# A tibble: 524 × 11\n   gene   timson_2024_cyto_high_…¹ timson_2024_cyto_low…² timson_2024_mito_hig…³\n   &lt;chr&gt;  &lt;lgl&gt;                    &lt;lgl&gt;                  &lt;lgl&gt;                 \n 1 KEAP1  FALSE                    TRUE                   FALSE                 \n 2 LIPT1  FALSE                    TRUE                   FALSE                 \n 3 NDUFA1 FALSE                    TRUE                   FALSE                 \n 4 NDUFA2 FALSE                    TRUE                   FALSE                 \n 5 NDUFS1 FALSE                    TRUE                   FALSE                 \n 6 PAICS  FALSE                    TRUE                   FALSE                 \n 7 RRM1   FALSE                    TRUE                   FALSE                 \n 8 SEPHS2 FALSE                    TRUE                   FALSE                 \n 9 ALDOA  FALSE                    TRUE                   FALSE                 \n10 ASNA1  FALSE                    TRUE                   FALSE                 \n# ℹ 514 more rows\n# ℹ abbreviated names: ¹​timson_2024_cyto_high_score,\n#   ²​timson_2024_cyto_low_score, ³​timson_2024_mito_high_score\n# ℹ 7 more variables: timson_2024_mito_low_score &lt;lgl&gt;,\n#   yang_2024_cys_starv_0_high_score &lt;lgl&gt;,\n#   yang_2024_cys_starv_0_low_score &lt;lgl&gt;,\n#   yang_2024_cys_starv_1_high_score &lt;lgl&gt;, …",
-    "crumbs": [
-      "Cross-studies",
-      "All studies"
-    ]
+    "text": "Build the Gene-by-List Logical Matrix\nThe table below has one row per gene and one column per extracted list. Each cell is TRUE if that gene appears in that list and FALSE otherwise.\n\n\nWarning: package 'yaml' was built under R version 4.5.2\n\n\nWarning: package 'dplyr' was built under R version 4.5.2\n\n\nWarning: package 'ggplot2' was built under R version 4.5.2\n\n\n# A tibble: 524 × 11\n   gene   timson_2024_cyto_high_…¹ timson_2024_cyto_low…² timson_2024_mito_hig…³\n   &lt;chr&gt;  &lt;lgl&gt;                    &lt;lgl&gt;                  &lt;lgl&gt;                 \n 1 KEAP1  FALSE                    TRUE                   FALSE                 \n 2 LIPT1  FALSE                    TRUE                   FALSE                 \n 3 NDUFA1 FALSE                    TRUE                   FALSE                 \n 4 NDUFA2 FALSE                    TRUE                   FALSE                 \n 5 NDUFS1 FALSE                    TRUE                   FALSE                 \n 6 PAICS  FALSE                    TRUE                   FALSE                 \n 7 RRM1   FALSE                    TRUE                   FALSE                 \n 8 SEPHS2 FALSE                    TRUE                   FALSE                 \n 9 ALDOA  FALSE                    TRUE                   FALSE                 \n10 ASNA1  FALSE                    TRUE                   FALSE                 \n# ℹ 514 more rows\n# ℹ abbreviated names: ¹​timson_2024_cyto_high_score,\n#   ²​timson_2024_cyto_low_score, ³​timson_2024_mito_high_score\n# ℹ 7 more variables: timson_2024_mito_low_score &lt;lgl&gt;,\n#   yang_2024_cys_starv_0_high_score &lt;lgl&gt;,\n#   yang_2024_cys_starv_0_low_score &lt;lgl&gt;,\n#   yang_2024_cys_starv_1_high_score &lt;lgl&gt;, …"
   },
   {
     "objectID": "cross-studies/all-studies.html#heatmap-view",
     "href": "cross-studies/all-studies.html#heatmap-view",
     "title": "All Studies Gene List Overlap",
     "section": "Heatmap View",
-    "text": "Heatmap View\nThe heatmap below visualises the same matrix: green tiles indicate that the gene (row) is present in that extracted list (column). Gene labels are hidden on the y-axis to keep the figure readable at scale.",
-    "crumbs": [
-      "Cross-studies",
-      "All studies"
-    ]
+    "text": "Heatmap View\nThe heatmap below visualises the same matrix: green tiles indicate that the gene (row) is present in that extracted list (column). Gene labels are hidden on the y-axis to keep the figure readable at scale."
   },
   {
     "objectID": "cross-studies/all-studies.html#study-hit-counts-per-gene",
     "href": "cross-studies/all-studies.html#study-hit-counts-per-gene",
     "title": "All Studies Gene List Overlap",
     "section": "Study Hit Counts per Gene",
-    "text": "Study Hit Counts per Gene\nA gene appearing in more than one study provides stronger cross-study evidence for a role in ferroptosis regulation. The table below counts, for each gene, how many distinct studies include it in at least one extracted list. A gene is counted once per study regardless of how many lists within that study contain it. List IDs follow the {author}_{year}_... convention, so the study is taken as the first two underscore-delimited tokens.\n\n\n# A tibble: 524 × 2\n   gene    n_studies\n   &lt;chr&gt;       &lt;int&gt;\n 1 KEAP1           3\n 2 RRM1            3\n 3 ALDOA           2\n 4 ASNA1           2\n 5 CDIPT           2\n 6 CNEP1R1         2\n 7 COQ3            2\n 8 COX5B           2\n 9 FXN             2\n10 GLRX5           2\n# ℹ 514 more rows\n\n\nThe table below summarises how many genes are supported by exactly 1, 2, 3, … independent studies.\n\n\n# A tibble: 3 × 2\n  n_studies n_genes\n      &lt;int&gt;   &lt;int&gt;\n1         3       2\n2         2      35\n3         1     487",
-    "crumbs": [
-      "Cross-studies",
-      "All studies"
-    ]
+    "text": "Study Hit Counts per Gene\nA gene appearing in more than one study provides stronger cross-study evidence for a role in ferroptosis regulation. The table below counts, for each gene, how many distinct studies include it in at least one extracted list. A gene is counted once per study regardless of how many lists within that study contain it. List IDs follow the {author}_{year}_... convention, so the study is taken as the first two underscore-delimited tokens.\n\n\n# A tibble: 524 × 2\n   gene    n_studies\n   &lt;chr&gt;       &lt;int&gt;\n 1 KEAP1           3\n 2 RRM1            3\n 3 ALDOA           2\n 4 ASNA1           2\n 5 CDIPT           2\n 6 CNEP1R1         2\n 7 COQ3            2\n 8 COX5B           2\n 9 FXN             2\n10 GLRX5           2\n# ℹ 514 more rows\n\n\nThe table below summarises how many genes are supported by exactly 1, 2, 3, … independent studies.\n\n\n# A tibble: 3 × 2\n  n_studies n_genes\n      &lt;int&gt;   &lt;int&gt;\n1         3       2\n2         2      35\n3         1     487"
   },
   {
     "objectID": "cross-studies/all-studies.html#gene-list-hit-counts-per-gene",
     "href": "cross-studies/all-studies.html#gene-list-hit-counts-per-gene",
     "title": "All Studies Gene List Overlap",
     "section": "Gene List Hit Counts per Gene",
-    "text": "Gene List Hit Counts per Gene\nThe table below counts how many individual gene lists (across all studies and conditions) contain each gene. Unlike the section above, no deduplication by study is applied: a gene appearing in four lists from the same study contributes 4 to its count. This is useful when lists within a study are not independent — for example, when the same screen is thresholded at multiple conditions — but the totals should be interpreted with that caveat in mind.\n\n\n# A tibble: 524 × 2\n   gene   n_lists\n   &lt;chr&gt;    &lt;int&gt;\n 1 KEAP1        4\n 2 LIPT1        4\n 3 NDUFA1       4\n 4 NDUFA2       4\n 5 NDUFS1       4\n 6 PAICS        4\n 7 RRM1         4\n 8 SEPHS2       4\n 9 ALDOA        3\n10 ASNA1        3\n# ℹ 514 more rows\n\n\nThe table below summarises how many genes appear in exactly 1, 2, 3, … individual lists.\n\n\n# A tibble: 4 × 2\n  n_lists n_genes\n    &lt;int&gt;   &lt;int&gt;\n1       4       8\n2       3      22\n3       2     151\n4       1     343",
-    "crumbs": [
-      "Cross-studies",
-      "All studies"
-    ]
+    "text": "Gene List Hit Counts per Gene\nThe table below counts how many individual gene lists (across all studies and conditions) contain each gene. Unlike the section above, no deduplication by study is applied: a gene appearing in four lists from the same study contributes 4 to its count. This is useful when lists within a study are not independent — for example, when the same screen is thresholded at multiple conditions — but the totals should be interpreted with that caveat in mind.\n\n\n# A tibble: 524 × 2\n   gene   n_lists\n   &lt;chr&gt;    &lt;int&gt;\n 1 KEAP1        4\n 2 LIPT1        4\n 3 NDUFA1       4\n 4 NDUFA2       4\n 5 NDUFS1       4\n 6 PAICS        4\n 7 RRM1         4\n 8 SEPHS2       4\n 9 ALDOA        3\n10 ASNA1        3\n# ℹ 514 more rows\n\n\nThe table below summarises how many genes appear in exactly 1, 2, 3, … individual lists.\n\n\n# A tibble: 4 × 2\n  n_lists n_genes\n    &lt;int&gt;   &lt;int&gt;\n1       4       8\n2       3      22\n3       2     151\n4       1     343"
   },
   {
     "objectID": "cross-studies/all-studies.html#genestudylist-reference-table",
     "href": "cross-studies/all-studies.html#genestudylist-reference-table",
     "title": "All Studies Gene List Overlap",
     "section": "Gene–Study–List Reference Table",
-    "text": "Gene–Study–List Reference Table\nThe table below is a long-format reference: one row per (gene, gene list) combination, limited to genes that are present in at least one list. The study column is derived from the first two tokens of the list ID (e.g. timson_2024). Use this table to look up, for any gene of interest, which studies and which specific lists it was identified in.\n\n\n# A tibble: 743 × 3\n   gene     study       gene_list                   \n   &lt;chr&gt;    &lt;chr&gt;       &lt;chr&gt;                       \n 1 AASDHPPT timson_2024 timson_2024_mito_low_score  \n 2 ABCB7    timson_2024 timson_2024_cyto_low_score  \n 3 ABCB7    timson_2024 timson_2024_mito_low_score  \n 4 ABCC1    zhang_2022  zhang_2022_crispr_high_score\n 5 ABCC6    zhang_2022  zhang_2022_crispr_high_score\n 6 ABCE1    timson_2024 timson_2024_cyto_low_score  \n 7 ABCE1    timson_2024 timson_2024_mito_low_score  \n 8 ABCF1    timson_2024 timson_2024_cyto_low_score  \n 9 ABCF1    timson_2024 timson_2024_mito_low_score  \n10 ABHD11   timson_2024 timson_2024_mito_low_score  \n# ℹ 733 more rows",
-    "crumbs": [
-      "Cross-studies",
-      "All studies"
-    ]
+    "text": "Gene–Study–List Reference Table\nThe table below is a long-format reference: one row per (gene, gene list) combination, limited to genes that are present in at least one list. The study column is derived from the first two tokens of the list ID (e.g. timson_2024). Use this table to look up, for any gene of interest, which studies and which specific lists it was identified in.\n\n\n# A tibble: 743 × 3\n   gene     study       gene_list                   \n   &lt;chr&gt;    &lt;chr&gt;       &lt;chr&gt;                       \n 1 AASDHPPT timson_2024 timson_2024_mito_low_score  \n 2 ABCB7    timson_2024 timson_2024_cyto_low_score  \n 3 ABCB7    timson_2024 timson_2024_mito_low_score  \n 4 ABCC1    zhang_2022  zhang_2022_crispr_high_score\n 5 ABCC6    zhang_2022  zhang_2022_crispr_high_score\n 6 ABCE1    timson_2024 timson_2024_cyto_low_score  \n 7 ABCE1    timson_2024 timson_2024_mito_low_score  \n 8 ABCF1    timson_2024 timson_2024_cyto_low_score  \n 9 ABCF1    timson_2024 timson_2024_mito_low_score  \n10 ABHD11   timson_2024 timson_2024_mito_low_score  \n# ℹ 733 more rows"
   },
   {
     "objectID": "cross-studies/all-studies.html#excel-export",
     "href": "cross-studies/all-studies.html#excel-export",
     "title": "All Studies Gene List Overlap",
     "section": "Excel Export",
-    "text": "Excel Export\nA CSV file intended for browsing and filtering in Excel. Each row is a gene; columns are: gene, n_studies, n_lists, then one logical column per gene list. Genes are ordered by n_studies descending, then n_lists descending, then alphabetically.\n\n\nWrote 524 genes to data/gene_by_list.csv",
-    "crumbs": [
-      "Cross-studies",
-      "All studies"
-    ]
+    "text": "Excel Export\nA CSV file intended for browsing and filtering in Excel. Each row is a gene; columns are: gene, n_studies, n_lists, then one logical column per gene list. Genes are ordered by n_studies descending, then n_lists descending, then alphabetically.\n\n\nWrote 524 genes to data/gene_by_list.csv"
   }
 ]
