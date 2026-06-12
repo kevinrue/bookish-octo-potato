@@ -11,7 +11,7 @@
     "href": "ferrdb-crosscheck/zhang-2022.html",
     "title": "Zhang 2022 – FerrDB Role Counts",
     "section": "",
-    "text": "Generated: 2026-06-11 15:26:25"
+    "text": "Generated: 2026-06-12 10:07:24"
   },
   {
     "objectID": "ferrdb-crosscheck/zhang-2022.html#setup",
@@ -53,7 +53,7 @@
     "href": "ferrdb-crosscheck/timson-2024.html",
     "title": "Timson 2024 – FerrDB Role Counts",
     "section": "",
-    "text": "Generated: 2026-06-11 15:26:15"
+    "text": "Generated: 2026-06-12 10:07:14"
   },
   {
     "objectID": "ferrdb-crosscheck/timson-2024.html#setup",
@@ -95,7 +95,7 @@
     "href": "data-extraction/zhang-2022.html",
     "title": "Zhang 2022 – CRISPR Screen Gene List Extraction",
     "section": "",
-    "text": "Generated: 2026-06-11 15:26:09"
+    "text": "Generated: 2026-06-12 10:07:08"
   },
   {
     "objectID": "data-extraction/zhang-2022.html#paper",
@@ -151,7 +151,7 @@
     "href": "data-extraction/timson-2024.html",
     "title": "Timson 2024 – CRISPR Screen Gene Lists Extraction",
     "section": "",
-    "text": "Generated: 2026-06-11 15:25:58"
+    "text": "Generated: 2026-06-12 10:06:56"
   },
   {
     "objectID": "data-extraction/timson-2024.html#paper",
@@ -214,7 +214,7 @@
     "href": "databases/ferrdb-v3.html",
     "title": "FerrDb – Known Ferroptosis Modulators extraction",
     "section": "",
-    "text": "Generated: 2026-06-11 15:25:51"
+    "text": "Generated: 2026-06-12 10:06:48"
   },
   {
     "objectID": "databases/ferrdb-v3.html#setup",
@@ -277,7 +277,7 @@
     "href": "data-extraction/yang-2024.html",
     "title": "Yang 2024 – CRISPR Screen Gene List Extraction",
     "section": "",
-    "text": "Generated: 2026-06-11 15:26:03"
+    "text": "Generated: 2026-06-12 10:07:01"
   },
   {
     "objectID": "data-extraction/yang-2024.html#paper",
@@ -340,7 +340,7 @@
     "href": "ferrdb-crosscheck/yang-2024.html",
     "title": "Yang 2024 – FerrDB Role Counts",
     "section": "",
-    "text": "Generated: 2026-06-11 15:26:20"
+    "text": "Generated: 2026-06-12 10:07:19"
   },
   {
     "objectID": "ferrdb-crosscheck/yang-2024.html#setup",
@@ -424,7 +424,7 @@
     "href": "cross-studies/all-studies.html#gene-list-hit-counts-per-gene",
     "title": "All Studies Gene List Overlap",
     "section": "Gene List Hit Counts per Gene",
-    "text": "Gene List Hit Counts per Gene\nThe table below counts how many individual gene lists (across all studies and conditions) contain each gene. Unlike the section above, no deduplication by study is applied: a gene appearing in four lists from the same study contributes 4 to its count. This is useful when lists within a study are not independent — for example, when the same screen is thresholded at multiple conditions — but the totals should be interpreted with that caveat in mind.\n\n\n# A tibble: 524 × 2\n   gene   n_lists\n   &lt;chr&gt;    &lt;int&gt;\n 1 KEAP1        4\n 2 LIPT1        4\n 3 NDUFA1       4\n 4 NDUFA2       4\n 5 NDUFS1       4\n 6 PAICS        4\n 7 RRM1         4\n 8 SEPHS2       4\n 9 ALDOA        3\n10 ASNA1        3\n# ℹ 514 more rows\n\n\nThe table below summarises how many genes appear in exactly 1, 2, 3, … individual lists.\n\n\n# A tibble: 4 × 2\n  n_lists n_genes\n    &lt;int&gt;   &lt;int&gt;\n1       4       8\n2       3      22\n3       2     151\n4       1     343"
+    "text": "Gene List Hit Counts per Gene\nThe table below counts how many individual gene lists (across all studies and conditions) contain each gene. Unlike the section above, no deduplication by study is applied: a gene appearing in four lists from the same study contributes 4 to its count. This is useful when lists within a study are not independent — for example, when the same screen is thresholded at multiple conditions — but the totals should be interpreted with that caveat in mind.\n\n\n# A tibble: 524 × 2\n   gene   n_lists\n   &lt;chr&gt;    &lt;int&gt;\n 1 KEAP1        4\n 2 LIPT1        4\n 3 NDUFA1       4\n 4 NDUFA2       4\n 5 NDUFS1       4\n 6 PAICS        4\n 7 RRM1         4\n 8 SEPHS2       4\n 9 ALDOA        3\n10 ASNA1        3\n# ℹ 514 more rows\n\n\nThe table below summarises how many genes appear in exactly 1, 2, 3, … individual lists.\n#| label: list-hit-counts-summary\nlist_hit_counts |&gt;\n    count(n_lists, name = \"n_genes\") |&gt;\n    arrange(desc(n_lists))"
   },
   {
     "objectID": "cross-studies/all-studies.html#genestudylist-reference-table",
